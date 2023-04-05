@@ -1,0 +1,29 @@
+[2.797s] Invoking command in 'C:\SET-BETA-Spring2023\ros2_ws\src\publisher': PYTHONPATH=C:\SET-BETA-Spring2023\ros2_ws\build\publisher\prefix_override;C:\SET-BETA-Spring2023\ros2_ws\install\Lib\site-packages;%PYTHONPATH% c:\python38\python.exe setup.py egg_info --egg-base ..\..\build\publisher build --build-base C:\SET-BETA-Spring2023\ros2_ws\build\publisher\build install --record C:\SET-BETA-Spring2023\ros2_ws\build\publisher\install.log --single-version-externally-managed
+[3.438s] running egg_info
+[3.438s] writing ..\..\build\publisher\publisher.egg-info\PKG-INFO
+[3.438s] writing dependency_links to ..\..\build\publisher\publisher.egg-info\dependency_links.txt
+[3.438s] writing entry points to ..\..\build\publisher\publisher.egg-info\entry_points.txt
+[3.438s] writing requirements to ..\..\build\publisher\publisher.egg-info\requires.txt
+[3.438s] writing top-level names to ..\..\build\publisher\publisher.egg-info\top_level.txt
+[3.469s] reading manifest file '..\..\build\publisher\publisher.egg-info\SOURCES.txt'
+[3.469s] writing manifest file '..\..\build\publisher\publisher.egg-info\SOURCES.txt'
+[3.469s] running build
+[3.469s] running build_py
+[3.485s] copying publisher\shoulder_servos.py -> C:\SET-BETA-Spring2023\ros2_ws\build\publisher\build\lib\publisher
+[3.485s] running install
+[3.485s] running install_lib
+[3.485s] copying C:\SET-BETA-Spring2023\ros2_ws\build\publisher\build\lib\publisher\shoulder_servos.py -> C:\SET-BETA-Spring2023\ros2_ws\install\Lib\site-packages\publisher
+[3.500s] byte-compiling C:\SET-BETA-Spring2023\ros2_ws\install\Lib\site-packages\publisher\shoulder_servos.py to shoulder_servos.cpython-38.pyc
+[3.500s] running install_data
+[3.500s] running install_egg_info
+[3.516s] removing 'C:\SET-BETA-Spring2023\ros2_ws\install\Lib\site-packages\publisher-0.0.0-py3.8.egg-info' (and everything under it)
+[3.516s] Copying ..\..\build\publisher\publisher.egg-info to C:\SET-BETA-Spring2023\ros2_ws\install\Lib\site-packages\publisher-0.0.0-py3.8.egg-info
+[3.563s] running install_scripts
+[3.610s] Installing listener-script.py script to C:\SET-BETA-Spring2023\ros2_ws\install\lib\publisher
+[3.610s] Installing listener.exe script to C:\SET-BETA-Spring2023\ros2_ws\install\lib\publisher
+[3.610s] Installing servos-script.py script to C:\SET-BETA-Spring2023\ros2_ws\install\lib\publisher
+[3.610s] Installing servos.exe script to C:\SET-BETA-Spring2023\ros2_ws\install\lib\publisher
+[3.610s] Installing talker-script.py script to C:\SET-BETA-Spring2023\ros2_ws\install\lib\publisher
+[3.610s] Installing talker.exe script to C:\SET-BETA-Spring2023\ros2_ws\install\lib\publisher
+[3.610s] writing list of installed files to 'C:\SET-BETA-Spring2023\ros2_ws\build\publisher\install.log'
+[3.735s] Invoked command in 'C:\SET-BETA-Spring2023\ros2_ws\src\publisher' returned '0': PYTHONPATH=C:\SET-BETA-Spring2023\ros2_ws\build\publisher\prefix_override;C:\SET-BETA-Spring2023\ros2_ws\install\Lib\site-packages;%PYTHONPATH% c:\python38\python.exe setup.py egg_info --egg-base ..\..\build\publisher build --build-base C:\SET-BETA-Spring2023\ros2_ws\build\publisher\build install --record C:\SET-BETA-Spring2023\ros2_ws\build\publisher\install.log --single-version-externally-managed

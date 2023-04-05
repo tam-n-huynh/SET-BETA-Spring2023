@@ -1,0 +1,75 @@
+[1.422s] Invoking command in 'C:\dev\ros2_ws\build\examples_rclcpp_async_client': C:\Python38\Scripts\cmake.EXE C:\dev\ros2_ws\src\examples\rclcpp\services\async_client -DCMAKE_INSTALL_PREFIX=C:\dev\ros2_ws\install -G Visual Studio 17 2022
+[6.156s] -- Selecting Windows SDK version 10.0.19041.0 to target Windows 10.0.22000.
+[6.156s] -- The C compiler identification is MSVC 19.30.30705.0
+[7.703s] -- The CXX compiler identification is MSVC 19.30.30705.0
+[7.703s] -- Detecting C compiler ABI info
+[9.547s] -- Detecting C compiler ABI info - done
+[9.593s] -- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.30.30705/bin/Hostx64/x64/cl.exe - skipped
+[9.593s] -- Detecting C compile features
+[9.609s] -- Detecting C compile features - done
+[9.625s] -- Detecting CXX compiler ABI info
+[12.218s] -- Detecting CXX compiler ABI info - done
+[12.250s] -- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.30.30705/bin/Hostx64/x64/cl.exe - skipped
+[12.250s] -- Detecting CXX compile features
+[12.250s] -- Detecting CXX compile features - done
+[12.281s] -- Found ament_cmake: 1.3.3 (C:/dev/ros2/ros2-windows/share/ament_cmake/cmake)
+[20.937s] -- Found Python3: C:/Python38/python.exe (found version "3.8.3") found components: Interpreter 
+[21.765s] -- Found example_interfaces: 0.9.3 (C:/dev/ros2/ros2-windows/share/example_interfaces/cmake)
+[21.890s] -- Found rosidl_generator_c: 3.1.4 (C:/dev/ros2/ros2-windows/share/rosidl_generator_c/cmake)
+[21.890s] -- Found rosidl_adapter: 3.1.4 (C:/dev/ros2/ros2-windows/share/rosidl_adapter/cmake)
+[22.187s] -- Found rosidl_generator_cpp: 3.1.4 (C:/dev/ros2/ros2-windows/share/rosidl_generator_cpp/cmake)
+[22.297s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[23.000s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[24.078s] -- Found rclcpp: 16.0.3 (C:/dev/ros2/ros2-windows/share/rclcpp/cmake)
+[24.422s] -- Found rmw_implementation_cmake: 6.1.1 (C:/dev/ros2/ros2-windows/share/rmw_implementation_cmake/cmake)
+[24.453s] -- Found rmw_fastrtps_cpp: 6.2.2 (C:/dev/ros2/ros2-windows/share/rmw_fastrtps_cpp/cmake)
+[25.172s] -- Found FastRTPS: C:/dev/ros2/ros2-windows/include  
+[25.297s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[25.547s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[27.500s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[27.500s] -- Looking for pthread_create in pthreads
+[29.687s] -- Looking for pthread_create in pthreads - not found
+[29.687s] -- Looking for pthread_create in pthread
+[31.718s] -- Looking for pthread_create in pthread - not found
+[31.718s] -- Found Threads: TRUE  
+[32.859s] -- Found ament_lint_auto: 0.12.5 (C:/dev/ros2/ros2-windows/share/ament_lint_auto/cmake)
+[33.484s] -- Added test 'copyright' to check source files copyright and LICENSE
+[33.515s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[33.515s] -- Configured cppcheck include dirs: 
+[33.515s] -- Configured cppcheck exclude dirs and/or files: 
+[33.531s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[33.531s] -- Configured cpplint exclude dirs and/or files: 
+[33.547s] -- Added test 'lint_cmake' to check CMake code style
+[33.562s] -- Added test 'uncrustify' to check C / C++ code style
+[33.562s] -- Configured uncrustify additional arguments: 
+[33.578s] -- Added test 'xmllint' to check XML markup files
+[33.656s] -- Configuring done (32.1s)
+[34.953s] -- Generating done (1.2s)
+[35.000s] -- Build files have been written to: C:/dev/ros2_ws/build/examples_rclcpp_async_client
+[35.093s] Invoked command in 'C:\dev\ros2_ws\build\examples_rclcpp_async_client' returned '0': C:\Python38\Scripts\cmake.EXE C:\dev\ros2_ws\src\examples\rclcpp\services\async_client -DCMAKE_INSTALL_PREFIX=C:\dev\ros2_ws\install -G Visual Studio 17 2022
+[35.093s] Invoking command in 'C:\dev\ros2_ws\build\examples_rclcpp_async_client': CL=/MP C:\Python38\Scripts\cmake.EXE --build C:\dev\ros2_ws\build\examples_rclcpp_async_client --config Release
+[35.625s] Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+[35.625s] Copyright (C) Microsoft Corporation. All rights reserved.
+[35.625s] 
+[36.703s]   Checking Build System
+[37.172s]   Building Custom Rule C:/dev/ros2_ws/src/examples/rclcpp/services/async_client/CMakeLists.txt
+[37.562s]   main.cpp
+[52.984s]   client_main.vcxproj -> C:\dev\ros2_ws\build\examples_rclcpp_async_client\Release\client_main.exe
+[53.218s]   Building Custom Rule C:/dev/ros2_ws/src/examples/rclcpp/services/async_client/CMakeLists.txt
+[53.578s] Invoked command in 'C:\dev\ros2_ws\build\examples_rclcpp_async_client' returned '0': CL=/MP C:\Python38\Scripts\cmake.EXE --build C:\dev\ros2_ws\build\examples_rclcpp_async_client --config Release
+[53.578s] Invoking command in 'C:\dev\ros2_ws\build\examples_rclcpp_async_client': C:\Python38\Scripts\cmake.EXE --install C:\dev\ros2_ws\build\examples_rclcpp_async_client --config Release
+[54.109s] -- Installing: C:/dev/ros2_ws/install/lib/examples_rclcpp_async_client/client_main.exe
+[54.109s] -- Installing: C:/dev/ros2_ws/install/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_async_client
+[54.547s] -- Installing: C:/dev/ros2_ws/install/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_async_client
+[54.547s] -- Installing: C:/dev/ros2_ws/install/share/examples_rclcpp_async_client/environment/ament_prefix_path.bat
+[54.547s] -- Installing: C:/dev/ros2_ws/install/share/examples_rclcpp_async_client/environment/ament_prefix_path.dsv
+[54.547s] -- Installing: C:/dev/ros2_ws/install/share/examples_rclcpp_async_client/environment/path.bat
+[54.547s] -- Installing: C:/dev/ros2_ws/install/share/examples_rclcpp_async_client/environment/path.dsv
+[54.547s] -- Installing: C:/dev/ros2_ws/install/share/examples_rclcpp_async_client/local_setup.bat
+[54.547s] -- Installing: C:/dev/ros2_ws/install/share/examples_rclcpp_async_client/local_setup.dsv
+[54.547s] -- Installing: C:/dev/ros2_ws/install/share/examples_rclcpp_async_client/package.dsv
+[54.547s] -- Installing: C:/dev/ros2_ws/install/share/ament_index/resource_index/packages/examples_rclcpp_async_client
+[54.547s] -- Installing: C:/dev/ros2_ws/install/share/examples_rclcpp_async_client/cmake/examples_rclcpp_async_clientConfig.cmake
+[54.547s] -- Installing: C:/dev/ros2_ws/install/share/examples_rclcpp_async_client/cmake/examples_rclcpp_async_clientConfig-version.cmake
+[54.547s] -- Installing: C:/dev/ros2_ws/install/share/examples_rclcpp_async_client/package.xml
+[54.593s] Invoked command in 'C:\dev\ros2_ws\build\examples_rclcpp_async_client' returned '0': C:\Python38\Scripts\cmake.EXE --install C:\dev\ros2_ws\build\examples_rclcpp_async_client --config Release

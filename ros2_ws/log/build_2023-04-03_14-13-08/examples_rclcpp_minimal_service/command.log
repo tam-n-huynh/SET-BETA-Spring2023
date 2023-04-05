@@ -1,0 +1,6 @@
+Invoking command in 'C:\dev\ros2_ws\build\examples_rclcpp_minimal_service': C:\Python38\Scripts\cmake.EXE C:\dev\ros2_ws\src\examples\rclcpp\services\minimal_service -DCMAKE_INSTALL_PREFIX=C:\dev\ros2_ws\install -G Visual Studio 17 2022
+Invoked command in 'C:\dev\ros2_ws\build\examples_rclcpp_minimal_service' returned '0': C:\Python38\Scripts\cmake.EXE C:\dev\ros2_ws\src\examples\rclcpp\services\minimal_service -DCMAKE_INSTALL_PREFIX=C:\dev\ros2_ws\install -G Visual Studio 17 2022
+Invoking command in 'C:\dev\ros2_ws\build\examples_rclcpp_minimal_service': CL=/MP C:\Python38\Scripts\cmake.EXE --build C:\dev\ros2_ws\build\examples_rclcpp_minimal_service --config Release
+Invoked command in 'C:\dev\ros2_ws\build\examples_rclcpp_minimal_service' returned '0': CL=/MP C:\Python38\Scripts\cmake.EXE --build C:\dev\ros2_ws\build\examples_rclcpp_minimal_service --config Release
+Invoking command in 'C:\dev\ros2_ws\build\examples_rclcpp_minimal_service': C:\Python38\Scripts\cmake.EXE --install C:\dev\ros2_ws\build\examples_rclcpp_minimal_service --config Release
+Invoked command in 'C:\dev\ros2_ws\build\examples_rclcpp_minimal_service' returned '0': C:\Python38\Scripts\cmake.EXE --install C:\dev\ros2_ws\build\examples_rclcpp_minimal_service --config Release

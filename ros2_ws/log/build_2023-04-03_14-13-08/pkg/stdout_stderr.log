@@ -1,0 +1,39 @@
+-- Selecting Windows SDK version 10.0.19041.0 to target Windows 10.0.22000.
+-- The C compiler identification is MSVC 19.30.30705.0
+-- The CXX compiler identification is MSVC 19.30.30705.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.30.30705/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.30.30705/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.3 (C:/dev/ros2/ros2-windows/share/ament_cmake/cmake)
+-- Found Python3: C:/Python38/python.exe (found version "3.8.3") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.5 (C:/dev/ros2/ros2-windows/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (22.6s)
+-- Generating done (0.4s)
+-- Build files have been written to: C:/dev/ros2_ws/build/pkg
+Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Checking Build System
+  Building Custom Rule C:/dev/ros2_ws/src/pkg/CMakeLists.txt
+-- Installing: C:/dev/ros2_ws/install/share/ament_index/resource_index/package_run_dependencies/pkg
+-- Installing: C:/dev/ros2_ws/install/share/ament_index/resource_index/parent_prefix_path/pkg
+-- Installing: C:/dev/ros2_ws/install/share/pkg/environment/ament_prefix_path.bat
+-- Installing: C:/dev/ros2_ws/install/share/pkg/environment/ament_prefix_path.dsv
+-- Installing: C:/dev/ros2_ws/install/share/pkg/environment/path.bat
+-- Installing: C:/dev/ros2_ws/install/share/pkg/environment/path.dsv
+-- Installing: C:/dev/ros2_ws/install/share/pkg/local_setup.bat
+-- Installing: C:/dev/ros2_ws/install/share/pkg/local_setup.dsv
+-- Installing: C:/dev/ros2_ws/install/share/pkg/package.dsv
+-- Installing: C:/dev/ros2_ws/install/share/ament_index/resource_index/packages/pkg
+-- Installing: C:/dev/ros2_ws/install/share/pkg/cmake/pkgConfig.cmake
+-- Installing: C:/dev/ros2_ws/install/share/pkg/cmake/pkgConfig-version.cmake
+-- Installing: C:/dev/ros2_ws/install/share/pkg/package.xml

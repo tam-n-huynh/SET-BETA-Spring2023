@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "C:\dev\ros2\ros2-windows\share\ament_cmake_core\cmake\core\package_xml_2_cmake.py", line 22, in <module>
+    from catkin_pkg.package import parse_package_string
+ModuleNotFoundError: No module named 'catkin_pkg'
+CMake Error at C:/dev/ros2/ros2-windows/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+  execute_process(C:/Program
+  Files/WindowsApps/PythonSoftwareFoundation.Python.3.10_3.10.2800.0_x64__qbz5n2kfra8p0/python3.10.exe
+  C:/dev/ros2/ros2-windows/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+  C:/dev/ros2_ws/src/my_package/package.xml
+  C:/dev/ros2_ws/build/my_package/ament_cmake_core/package.cmake) returned
+  error code 1
+Call Stack (most recent call first):
+  C:/dev/ros2/ros2-windows/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+  C:/dev/ros2/ros2-windows/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+  CMakeLists.txt:32 (ament_lint_auto_find_test_dependencies)
+
+

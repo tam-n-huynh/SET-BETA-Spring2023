@@ -1,0 +1,9 @@
+source;share\new_package\hook\cmake_prefix_path.ps1
+source;share\new_package\hook\cmake_prefix_path.bat
+source;share\new_package\hook\cmake_prefix_path.dsv
+source;share\new_package\hook\pythonpath.ps1
+source;share\new_package\hook\pythonpath.bat
+source;share\new_package\hook\pythonpath.dsv
+source;share/new_package/local_setup.bat
+source;share/new_package/local_setup.dsv
+source;share/new_package/local_setup.ps1

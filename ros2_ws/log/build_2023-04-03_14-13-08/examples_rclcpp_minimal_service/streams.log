@@ -1,0 +1,75 @@
+[0.859s] Invoking command in 'C:\dev\ros2_ws\build\examples_rclcpp_minimal_service': C:\Python38\Scripts\cmake.EXE C:\dev\ros2_ws\src\examples\rclcpp\services\minimal_service -DCMAKE_INSTALL_PREFIX=C:\dev\ros2_ws\install -G Visual Studio 17 2022
+[5.547s] -- Selecting Windows SDK version 10.0.19041.0 to target Windows 10.0.22000.
+[5.547s] -- The C compiler identification is MSVC 19.30.30705.0
+[7.094s] -- The CXX compiler identification is MSVC 19.30.30705.0
+[7.094s] -- Detecting C compiler ABI info
+[8.781s] -- Detecting C compiler ABI info - done
+[8.813s] -- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.30.30705/bin/Hostx64/x64/cl.exe - skipped
+[8.828s] -- Detecting C compile features
+[8.828s] -- Detecting C compile features - done
+[8.859s] -- Detecting CXX compiler ABI info
+[11.516s] -- Detecting CXX compiler ABI info - done
+[11.547s] -- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.30.30705/bin/Hostx64/x64/cl.exe - skipped
+[11.563s] -- Detecting CXX compile features
+[11.563s] -- Detecting CXX compile features - done
+[11.578s] -- Found ament_cmake: 1.3.3 (C:/dev/ros2/ros2-windows/share/ament_cmake/cmake)
+[20.547s] -- Found Python3: C:/Python38/python.exe (found version "3.8.3") found components: Interpreter 
+[21.266s] -- Found example_interfaces: 0.9.3 (C:/dev/ros2/ros2-windows/share/example_interfaces/cmake)
+[21.578s] -- Found rosidl_generator_c: 3.1.4 (C:/dev/ros2/ros2-windows/share/rosidl_generator_c/cmake)
+[21.578s] -- Found rosidl_adapter: 3.1.4 (C:/dev/ros2/ros2-windows/share/rosidl_adapter/cmake)
+[21.672s] -- Found rosidl_generator_cpp: 3.1.4 (C:/dev/ros2/ros2-windows/share/rosidl_generator_cpp/cmake)
+[21.688s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[22.391s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[23.469s] -- Found rclcpp: 16.0.3 (C:/dev/ros2/ros2-windows/share/rclcpp/cmake)
+[23.797s] -- Found rmw_implementation_cmake: 6.1.1 (C:/dev/ros2/ros2-windows/share/rmw_implementation_cmake/cmake)
+[23.828s] -- Found rmw_fastrtps_cpp: 6.2.2 (C:/dev/ros2/ros2-windows/share/rmw_fastrtps_cpp/cmake)
+[24.563s] -- Found FastRTPS: C:/dev/ros2/ros2-windows/include  
+[24.672s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[24.938s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[26.703s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[26.703s] -- Looking for pthread_create in pthreads
+[28.828s] -- Looking for pthread_create in pthreads - not found
+[28.828s] -- Looking for pthread_create in pthread
+[30.953s] -- Looking for pthread_create in pthread - not found
+[30.953s] -- Found Threads: TRUE  
+[32.234s] -- Found ament_lint_auto: 0.12.5 (C:/dev/ros2/ros2-windows/share/ament_lint_auto/cmake)
+[32.875s] -- Added test 'copyright' to check source files copyright and LICENSE
+[32.891s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[32.891s] -- Configured cppcheck include dirs: 
+[32.891s] -- Configured cppcheck exclude dirs and/or files: 
+[32.922s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[32.922s] -- Configured cpplint exclude dirs and/or files: 
+[32.938s] -- Added test 'lint_cmake' to check CMake code style
+[32.953s] -- Added test 'uncrustify' to check C / C++ code style
+[32.953s] -- Configured uncrustify additional arguments: 
+[32.969s] -- Added test 'xmllint' to check XML markup files
+[33.047s] -- Configuring done (32.0s)
+[34.328s] -- Generating done (1.2s)
+[34.375s] -- Build files have been written to: C:/dev/ros2_ws/build/examples_rclcpp_minimal_service
+[34.453s] Invoked command in 'C:\dev\ros2_ws\build\examples_rclcpp_minimal_service' returned '0': C:\Python38\Scripts\cmake.EXE C:\dev\ros2_ws\src\examples\rclcpp\services\minimal_service -DCMAKE_INSTALL_PREFIX=C:\dev\ros2_ws\install -G Visual Studio 17 2022
+[34.453s] Invoking command in 'C:\dev\ros2_ws\build\examples_rclcpp_minimal_service': CL=/MP C:\Python38\Scripts\cmake.EXE --build C:\dev\ros2_ws\build\examples_rclcpp_minimal_service --config Release
+[34.953s] Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+[34.953s] Copyright (C) Microsoft Corporation. All rights reserved.
+[34.953s] 
+[36.063s]   Checking Build System
+[36.516s]   Building Custom Rule C:/dev/ros2_ws/src/examples/rclcpp/services/minimal_service/CMakeLists.txt
+[36.875s]   main.cpp
+[50.813s]   service_main.vcxproj -> C:\dev\ros2_ws\build\examples_rclcpp_minimal_service\Release\service_main.exe
+[52.000s]   Building Custom Rule C:/dev/ros2_ws/src/examples/rclcpp/services/minimal_service/CMakeLists.txt
+[52.563s] Invoked command in 'C:\dev\ros2_ws\build\examples_rclcpp_minimal_service' returned '0': CL=/MP C:\Python38\Scripts\cmake.EXE --build C:\dev\ros2_ws\build\examples_rclcpp_minimal_service --config Release
+[52.563s] Invoking command in 'C:\dev\ros2_ws\build\examples_rclcpp_minimal_service': C:\Python38\Scripts\cmake.EXE --install C:\dev\ros2_ws\build\examples_rclcpp_minimal_service --config Release
+[53.078s] -- Installing: C:/dev/ros2_ws/install/lib/examples_rclcpp_minimal_service/service_main.exe
+[53.109s] -- Installing: C:/dev/ros2_ws/install/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_service
+[53.109s] -- Installing: C:/dev/ros2_ws/install/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_service
+[53.109s] -- Installing: C:/dev/ros2_ws/install/share/examples_rclcpp_minimal_service/environment/ament_prefix_path.bat
+[53.109s] -- Installing: C:/dev/ros2_ws/install/share/examples_rclcpp_minimal_service/environment/ament_prefix_path.dsv
+[53.125s] -- Installing: C:/dev/ros2_ws/install/share/examples_rclcpp_minimal_service/environment/path.bat
+[53.125s] -- Installing: C:/dev/ros2_ws/install/share/examples_rclcpp_minimal_service/environment/path.dsv
+[53.125s] -- Installing: C:/dev/ros2_ws/install/share/examples_rclcpp_minimal_service/local_setup.bat
+[53.156s] -- Installing: C:/dev/ros2_ws/install/share/examples_rclcpp_minimal_service/local_setup.dsv
+[53.172s] -- Installing: C:/dev/ros2_ws/install/share/examples_rclcpp_minimal_service/package.dsv
+[53.172s] -- Installing: C:/dev/ros2_ws/install/share/ament_index/resource_index/packages/examples_rclcpp_minimal_service
+[53.188s] -- Installing: C:/dev/ros2_ws/install/share/examples_rclcpp_minimal_service/cmake/examples_rclcpp_minimal_serviceConfig.cmake
+[53.188s] -- Installing: C:/dev/ros2_ws/install/share/examples_rclcpp_minimal_service/cmake/examples_rclcpp_minimal_serviceConfig-version.cmake
+[53.203s] -- Installing: C:/dev/ros2_ws/install/share/examples_rclcpp_minimal_service/package.xml
+[53.281s] Invoked command in 'C:\dev\ros2_ws\build\examples_rclcpp_minimal_service' returned '0': C:\Python38\Scripts\cmake.EXE --install C:\dev\ros2_ws\build\examples_rclcpp_minimal_service --config Release

@@ -1,0 +1,45 @@
+[6.359s] Invoking command in 'C:\dev\ros2_ws\src\examples\rclpy\topics\minimal_subscriber': PYTHONPATH=C:\dev\ros2_ws\build\examples_rclpy_minimal_subscriber\prefix_override;C:\dev\ros2_ws\install\Lib\site-packages;%PYTHONPATH% c:\python38\python.exe setup.py egg_info --egg-base ..\..\..\..\..\build\examples_rclpy_minimal_subscriber build --build-base C:\dev\ros2_ws\build\examples_rclpy_minimal_subscriber\build install --record C:\dev\ros2_ws\build\examples_rclpy_minimal_subscriber\install.log --single-version-externally-managed
+[7.359s] running egg_info
+[7.359s] creating ..\..\..\..\..\build\examples_rclpy_minimal_subscriber\examples_rclpy_minimal_subscriber.egg-info
+[7.375s] writing ..\..\..\..\..\build\examples_rclpy_minimal_subscriber\examples_rclpy_minimal_subscriber.egg-info\PKG-INFO
+[7.375s] writing dependency_links to ..\..\..\..\..\build\examples_rclpy_minimal_subscriber\examples_rclpy_minimal_subscriber.egg-info\dependency_links.txt
+[7.375s] writing entry points to ..\..\..\..\..\build\examples_rclpy_minimal_subscriber\examples_rclpy_minimal_subscriber.egg-info\entry_points.txt
+[7.375s] writing requirements to ..\..\..\..\..\build\examples_rclpy_minimal_subscriber\examples_rclpy_minimal_subscriber.egg-info\requires.txt
+[7.375s] writing top-level names to ..\..\..\..\..\build\examples_rclpy_minimal_subscriber\examples_rclpy_minimal_subscriber.egg-info\top_level.txt
+[7.375s] writing manifest file '..\..\..\..\..\build\examples_rclpy_minimal_subscriber\examples_rclpy_minimal_subscriber.egg-info\SOURCES.txt'
+[7.453s] reading manifest file '..\..\..\..\..\build\examples_rclpy_minimal_subscriber\examples_rclpy_minimal_subscriber.egg-info\SOURCES.txt'
+[7.453s] writing manifest file '..\..\..\..\..\build\examples_rclpy_minimal_subscriber\examples_rclpy_minimal_subscriber.egg-info\SOURCES.txt'
+[7.468s] running build
+[7.468s] running build_py
+[7.468s] creating C:\dev\ros2_ws\build\examples_rclpy_minimal_subscriber\build
+[7.468s] creating C:\dev\ros2_ws\build\examples_rclpy_minimal_subscriber\build\lib
+[7.468s] creating C:\dev\ros2_ws\build\examples_rclpy_minimal_subscriber\build\lib\examples_rclpy_minimal_subscriber
+[7.468s] copying examples_rclpy_minimal_subscriber\subscriber_lambda.py -> C:\dev\ros2_ws\build\examples_rclpy_minimal_subscriber\build\lib\examples_rclpy_minimal_subscriber
+[7.468s] copying examples_rclpy_minimal_subscriber\subscriber_member_function.py -> C:\dev\ros2_ws\build\examples_rclpy_minimal_subscriber\build\lib\examples_rclpy_minimal_subscriber
+[7.468s] copying examples_rclpy_minimal_subscriber\subscriber_old_school.py -> C:\dev\ros2_ws\build\examples_rclpy_minimal_subscriber\build\lib\examples_rclpy_minimal_subscriber
+[7.468s] copying examples_rclpy_minimal_subscriber\__init__.py -> C:\dev\ros2_ws\build\examples_rclpy_minimal_subscriber\build\lib\examples_rclpy_minimal_subscriber
+[7.468s] running install
+[7.468s] running install_lib
+[7.484s] creating C:\dev\ros2_ws\install\Lib\site-packages\examples_rclpy_minimal_subscriber
+[7.484s] copying C:\dev\ros2_ws\build\examples_rclpy_minimal_subscriber\build\lib\examples_rclpy_minimal_subscriber\subscriber_lambda.py -> C:\dev\ros2_ws\install\Lib\site-packages\examples_rclpy_minimal_subscriber
+[7.500s] copying C:\dev\ros2_ws\build\examples_rclpy_minimal_subscriber\build\lib\examples_rclpy_minimal_subscriber\subscriber_member_function.py -> C:\dev\ros2_ws\install\Lib\site-packages\examples_rclpy_minimal_subscriber
+[7.515s] copying C:\dev\ros2_ws\build\examples_rclpy_minimal_subscriber\build\lib\examples_rclpy_minimal_subscriber\subscriber_old_school.py -> C:\dev\ros2_ws\install\Lib\site-packages\examples_rclpy_minimal_subscriber
+[7.547s] copying C:\dev\ros2_ws\build\examples_rclpy_minimal_subscriber\build\lib\examples_rclpy_minimal_subscriber\__init__.py -> C:\dev\ros2_ws\install\Lib\site-packages\examples_rclpy_minimal_subscriber
+[7.547s] byte-compiling C:\dev\ros2_ws\install\Lib\site-packages\examples_rclpy_minimal_subscriber\subscriber_lambda.py to subscriber_lambda.cpython-38.pyc
+[7.547s] byte-compiling C:\dev\ros2_ws\install\Lib\site-packages\examples_rclpy_minimal_subscriber\subscriber_member_function.py to subscriber_member_function.cpython-38.pyc
+[7.562s] byte-compiling C:\dev\ros2_ws\install\Lib\site-packages\examples_rclpy_minimal_subscriber\subscriber_old_school.py to subscriber_old_school.cpython-38.pyc
+[7.562s] byte-compiling C:\dev\ros2_ws\install\Lib\site-packages\examples_rclpy_minimal_subscriber\__init__.py to __init__.cpython-38.pyc
+[7.562s] running install_data
+[7.578s] copying resource\examples_rclpy_minimal_subscriber -> C:\dev\ros2_ws\install\share\ament_index\resource_index\packages
+[7.578s] copying package.xml -> C:\dev\ros2_ws\install\share\examples_rclpy_minimal_subscriber
+[7.578s] running install_egg_info
+[7.593s] Copying ..\..\..\..\..\build\examples_rclpy_minimal_subscriber\examples_rclpy_minimal_subscriber.egg-info to C:\dev\ros2_ws\install\Lib\site-packages\examples_rclpy_minimal_subscriber-0.17.1-py3.8.egg-info
+[7.656s] running install_scripts
+[7.718s] Installing subscriber_lambda-script.py script to C:\dev\ros2_ws\install\lib\examples_rclpy_minimal_subscriber
+[7.718s] Installing subscriber_lambda.exe script to C:\dev\ros2_ws\install\lib\examples_rclpy_minimal_subscriber
+[7.718s] Installing subscriber_member_function-script.py script to C:\dev\ros2_ws\install\lib\examples_rclpy_minimal_subscriber
+[7.734s] Installing subscriber_member_function.exe script to C:\dev\ros2_ws\install\lib\examples_rclpy_minimal_subscriber
+[7.734s] Installing subscriber_old_school-script.py script to C:\dev\ros2_ws\install\lib\examples_rclpy_minimal_subscriber
+[7.734s] Installing subscriber_old_school.exe script to C:\dev\ros2_ws\install\lib\examples_rclpy_minimal_subscriber
+[7.734s] writing list of installed files to 'C:\dev\ros2_ws\build\examples_rclpy_minimal_subscriber\install.log'
+[8.078s] Invoked command in 'C:\dev\ros2_ws\src\examples\rclpy\topics\minimal_subscriber' returned '0': PYTHONPATH=C:\dev\ros2_ws\build\examples_rclpy_minimal_subscriber\prefix_override;C:\dev\ros2_ws\install\Lib\site-packages;%PYTHONPATH% c:\python38\python.exe setup.py egg_info --egg-base ..\..\..\..\..\build\examples_rclpy_minimal_subscriber build --build-base C:\dev\ros2_ws\build\examples_rclpy_minimal_subscriber\build install --record C:\dev\ros2_ws\build\examples_rclpy_minimal_subscriber\install.log --single-version-externally-managed

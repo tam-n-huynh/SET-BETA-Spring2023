@@ -1,0 +1,45 @@
+[1.563s] Invoking command in 'C:\dev\ros2_ws\build\new_package': C:\Python38\Scripts\cmake.EXE C:\dev\ros2_ws\src\new_package -DCMAKE_INSTALL_PREFIX=C:\dev\ros2_ws\install -G Visual Studio 17 2022
+[1.719s] -- Selecting Windows SDK version 10.0.19041.0 to target Windows 10.0.22000.
+[5.125s] -- The C compiler identification is MSVC 19.30.30705.0
+[7.688s] -- The CXX compiler identification is MSVC 19.30.30705.0
+[7.750s] -- Detecting C compiler ABI info
+[10.000s] -- Detecting C compiler ABI info - done
+[10.031s] -- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.30.30705/bin/Hostx64/x64/cl.exe - skipped
+[10.047s] -- Detecting C compile features
+[10.047s] -- Detecting C compile features - done
+[10.078s] -- Detecting CXX compiler ABI info
+[11.578s] -- Detecting CXX compiler ABI info - done
+[11.625s] -- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.30.30705/bin/Hostx64/x64/cl.exe - skipped
+[11.625s] -- Detecting CXX compile features
+[11.641s] -- Detecting CXX compile features - done
+[11.672s] -- Found ament_cmake: 1.3.3 (C:/dev/ros2/ros2-windows/share/ament_cmake/cmake)
+[19.250s] -- Found Python3: C:/Python38/python.exe (found version "3.8.3") found components: Interpreter 
+[20.406s] -- Found ament_lint_auto: 0.12.5 (C:/dev/ros2/ros2-windows/share/ament_lint_auto/cmake)
+[21.297s] -- Added test 'lint_cmake' to check CMake code style
+[21.313s] -- Added test 'xmllint' to check XML markup files
+[21.391s] -- Configuring done (19.7s)
+[21.781s] -- Generating done (0.3s)
+[21.891s] -- Build files have been written to: C:/dev/ros2_ws/build/new_package
+[21.969s] Invoked command in 'C:\dev\ros2_ws\build\new_package' returned '0': C:\Python38\Scripts\cmake.EXE C:\dev\ros2_ws\src\new_package -DCMAKE_INSTALL_PREFIX=C:\dev\ros2_ws\install -G Visual Studio 17 2022
+[21.969s] Invoking command in 'C:\dev\ros2_ws\build\new_package': CL=/MP C:\Python38\Scripts\cmake.EXE --build C:\dev\ros2_ws\build\new_package --config Release
+[23.031s] Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+[23.031s] Copyright (C) Microsoft Corporation. All rights reserved.
+[23.031s] 
+[24.672s]   Checking Build System
+[25.828s]   Building Custom Rule C:/dev/ros2_ws/src/new_package/CMakeLists.txt
+[26.547s] Invoked command in 'C:\dev\ros2_ws\build\new_package' returned '0': CL=/MP C:\Python38\Scripts\cmake.EXE --build C:\dev\ros2_ws\build\new_package --config Release
+[26.547s] Invoking command in 'C:\dev\ros2_ws\build\new_package': C:\Python38\Scripts\cmake.EXE --install C:\dev\ros2_ws\build\new_package --config Release
+[27.969s] -- Installing: C:/dev/ros2_ws/install/share/ament_index/resource_index/package_run_dependencies/new_package
+[27.969s] -- Installing: C:/dev/ros2_ws/install/share/ament_index/resource_index/parent_prefix_path/new_package
+[28.000s] -- Installing: C:/dev/ros2_ws/install/share/new_package/environment/ament_prefix_path.bat
+[28.063s] -- Installing: C:/dev/ros2_ws/install/share/new_package/environment/ament_prefix_path.dsv
+[28.063s] -- Installing: C:/dev/ros2_ws/install/share/new_package/environment/path.bat
+[28.078s] -- Installing: C:/dev/ros2_ws/install/share/new_package/environment/path.dsv
+[28.078s] -- Installing: C:/dev/ros2_ws/install/share/new_package/local_setup.bat
+[28.172s] -- Installing: C:/dev/ros2_ws/install/share/new_package/local_setup.dsv
+[28.266s] -- Installing: C:/dev/ros2_ws/install/share/new_package/package.dsv
+[28.328s] -- Installing: C:/dev/ros2_ws/install/share/ament_index/resource_index/packages/new_package
+[28.375s] -- Installing: C:/dev/ros2_ws/install/share/new_package/cmake/new_packageConfig.cmake
+[28.391s] -- Installing: C:/dev/ros2_ws/install/share/new_package/cmake/new_packageConfig-version.cmake
+[28.406s] -- Installing: C:/dev/ros2_ws/install/share/new_package/package.xml
+[28.625s] Invoked command in 'C:\dev\ros2_ws\build\new_package' returned '0': C:\Python38\Scripts\cmake.EXE --install C:\dev\ros2_ws\build\new_package --config Release

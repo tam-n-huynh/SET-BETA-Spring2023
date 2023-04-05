@@ -1,0 +1,48 @@
+[3.313s] Invoking command in 'C:\dev\ros2_ws\src\examples\launch_testing\launch_testing_examples': PYTHONPATH=C:\dev\ros2_ws\build\launch_testing_examples\prefix_override;C:\dev\ros2_ws\install\Lib\site-packages;%PYTHONPATH% c:\python38\python.exe setup.py egg_info --egg-base ..\..\..\..\build\launch_testing_examples build --build-base C:\dev\ros2_ws\build\launch_testing_examples\build install --record C:\dev\ros2_ws\build\launch_testing_examples\install.log --single-version-externally-managed
+[4.360s] running egg_info
+[4.375s] creating ..\..\..\..\build\launch_testing_examples\launch_testing_examples.egg-info
+[4.375s] writing ..\..\..\..\build\launch_testing_examples\launch_testing_examples.egg-info\PKG-INFO
+[4.375s] writing dependency_links to ..\..\..\..\build\launch_testing_examples\launch_testing_examples.egg-info\dependency_links.txt
+[4.375s] writing entry points to ..\..\..\..\build\launch_testing_examples\launch_testing_examples.egg-info\entry_points.txt
+[4.375s] writing requirements to ..\..\..\..\build\launch_testing_examples\launch_testing_examples.egg-info\requires.txt
+[4.391s] writing top-level names to ..\..\..\..\build\launch_testing_examples\launch_testing_examples.egg-info\top_level.txt
+[4.391s] writing manifest file '..\..\..\..\build\launch_testing_examples\launch_testing_examples.egg-info\SOURCES.txt'
+[4.594s] reading manifest file '..\..\..\..\build\launch_testing_examples\launch_testing_examples.egg-info\SOURCES.txt'
+[4.594s] writing manifest file '..\..\..\..\build\launch_testing_examples\launch_testing_examples.egg-info\SOURCES.txt'
+[4.594s] running build
+[4.594s] running build_py
+[4.594s] creating C:\dev\ros2_ws\build\launch_testing_examples\build
+[4.594s] creating C:\dev\ros2_ws\build\launch_testing_examples\build\lib
+[4.594s] creating C:\dev\ros2_ws\build\launch_testing_examples\build\lib\launch_testing_examples
+[4.594s] copying launch_testing_examples\check_msgs_launch_test.py -> C:\dev\ros2_ws\build\launch_testing_examples\build\lib\launch_testing_examples
+[4.594s] copying launch_testing_examples\check_multiple_nodes_launch_test.py -> C:\dev\ros2_ws\build\launch_testing_examples\build\lib\launch_testing_examples
+[4.594s] copying launch_testing_examples\check_node_launch_test.py -> C:\dev\ros2_ws\build\launch_testing_examples\build\lib\launch_testing_examples
+[4.610s] copying launch_testing_examples\hello_world_launch_test.py -> C:\dev\ros2_ws\build\launch_testing_examples\build\lib\launch_testing_examples
+[4.610s] copying launch_testing_examples\record_rosbag_launch_test.py -> C:\dev\ros2_ws\build\launch_testing_examples\build\lib\launch_testing_examples
+[4.610s] copying launch_testing_examples\set_param_launch_test.py -> C:\dev\ros2_ws\build\launch_testing_examples\build\lib\launch_testing_examples
+[4.625s] copying launch_testing_examples\__init__.py -> C:\dev\ros2_ws\build\launch_testing_examples\build\lib\launch_testing_examples
+[4.625s] running install
+[4.625s] running install_lib
+[4.641s] creating C:\dev\ros2_ws\install\Lib\site-packages\launch_testing_examples
+[4.641s] copying C:\dev\ros2_ws\build\launch_testing_examples\build\lib\launch_testing_examples\check_msgs_launch_test.py -> C:\dev\ros2_ws\install\Lib\site-packages\launch_testing_examples
+[4.672s] copying C:\dev\ros2_ws\build\launch_testing_examples\build\lib\launch_testing_examples\check_multiple_nodes_launch_test.py -> C:\dev\ros2_ws\install\Lib\site-packages\launch_testing_examples
+[4.703s] copying C:\dev\ros2_ws\build\launch_testing_examples\build\lib\launch_testing_examples\check_node_launch_test.py -> C:\dev\ros2_ws\install\Lib\site-packages\launch_testing_examples
+[4.750s] copying C:\dev\ros2_ws\build\launch_testing_examples\build\lib\launch_testing_examples\hello_world_launch_test.py -> C:\dev\ros2_ws\install\Lib\site-packages\launch_testing_examples
+[4.750s] copying C:\dev\ros2_ws\build\launch_testing_examples\build\lib\launch_testing_examples\record_rosbag_launch_test.py -> C:\dev\ros2_ws\install\Lib\site-packages\launch_testing_examples
+[4.766s] copying C:\dev\ros2_ws\build\launch_testing_examples\build\lib\launch_testing_examples\set_param_launch_test.py -> C:\dev\ros2_ws\install\Lib\site-packages\launch_testing_examples
+[4.797s] copying C:\dev\ros2_ws\build\launch_testing_examples\build\lib\launch_testing_examples\__init__.py -> C:\dev\ros2_ws\install\Lib\site-packages\launch_testing_examples
+[4.797s] byte-compiling C:\dev\ros2_ws\install\Lib\site-packages\launch_testing_examples\check_msgs_launch_test.py to check_msgs_launch_test.cpython-38.pyc
+[4.797s] byte-compiling C:\dev\ros2_ws\install\Lib\site-packages\launch_testing_examples\check_multiple_nodes_launch_test.py to check_multiple_nodes_launch_test.cpython-38.pyc
+[4.813s] byte-compiling C:\dev\ros2_ws\install\Lib\site-packages\launch_testing_examples\check_node_launch_test.py to check_node_launch_test.cpython-38.pyc
+[4.813s] byte-compiling C:\dev\ros2_ws\install\Lib\site-packages\launch_testing_examples\hello_world_launch_test.py to hello_world_launch_test.cpython-38.pyc
+[4.860s] byte-compiling C:\dev\ros2_ws\install\Lib\site-packages\launch_testing_examples\record_rosbag_launch_test.py to record_rosbag_launch_test.cpython-38.pyc
+[4.875s] byte-compiling C:\dev\ros2_ws\install\Lib\site-packages\launch_testing_examples\set_param_launch_test.py to set_param_launch_test.cpython-38.pyc
+[4.875s] byte-compiling C:\dev\ros2_ws\install\Lib\site-packages\launch_testing_examples\__init__.py to __init__.cpython-38.pyc
+[4.875s] running install_data
+[4.875s] copying resource\launch_testing_examples -> C:\dev\ros2_ws\install\share\ament_index\resource_index\packages
+[4.875s] copying package.xml -> C:\dev\ros2_ws\install\share\launch_testing_examples
+[4.875s] running install_egg_info
+[4.891s] Copying ..\..\..\..\build\launch_testing_examples\launch_testing_examples.egg-info to C:\dev\ros2_ws\install\Lib\site-packages\launch_testing_examples-0.17.1-py3.8.egg-info
+[5.235s] running install_scripts
+[5.235s] writing list of installed files to 'C:\dev\ros2_ws\build\launch_testing_examples\install.log'
+[5.360s] Invoked command in 'C:\dev\ros2_ws\src\examples\launch_testing\launch_testing_examples' returned '0': PYTHONPATH=C:\dev\ros2_ws\build\launch_testing_examples\prefix_override;C:\dev\ros2_ws\install\Lib\site-packages;%PYTHONPATH% c:\python38\python.exe setup.py egg_info --egg-base ..\..\..\..\build\launch_testing_examples build --build-base C:\dev\ros2_ws\build\launch_testing_examples\build install --record C:\dev\ros2_ws\build\launch_testing_examples\install.log --single-version-externally-managed

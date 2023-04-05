@@ -1,0 +1,6 @@
+Invoking command in 'C:\dev\ros2_ws\build\examples_rclcpp_cbg_executor': C:\Python38\Scripts\cmake.EXE C:\dev\ros2_ws\src\examples\rclcpp\executors\cbg_executor -DCMAKE_INSTALL_PREFIX=C:\dev\ros2_ws\install -G Visual Studio 17 2022
+Invoked command in 'C:\dev\ros2_ws\build\examples_rclcpp_cbg_executor' returned '0': C:\Python38\Scripts\cmake.EXE C:\dev\ros2_ws\src\examples\rclcpp\executors\cbg_executor -DCMAKE_INSTALL_PREFIX=C:\dev\ros2_ws\install -G Visual Studio 17 2022
+Invoking command in 'C:\dev\ros2_ws\build\examples_rclcpp_cbg_executor': CL=/MP C:\Python38\Scripts\cmake.EXE --build C:\dev\ros2_ws\build\examples_rclcpp_cbg_executor --config Release
+Invoked command in 'C:\dev\ros2_ws\build\examples_rclcpp_cbg_executor' returned '0': CL=/MP C:\Python38\Scripts\cmake.EXE --build C:\dev\ros2_ws\build\examples_rclcpp_cbg_executor --config Release
+Invoking command in 'C:\dev\ros2_ws\build\examples_rclcpp_cbg_executor': C:\Python38\Scripts\cmake.EXE --install C:\dev\ros2_ws\build\examples_rclcpp_cbg_executor --config Release
+Invoked command in 'C:\dev\ros2_ws\build\examples_rclcpp_cbg_executor' returned '0': C:\Python38\Scripts\cmake.EXE --install C:\dev\ros2_ws\build\examples_rclcpp_cbg_executor --config Release

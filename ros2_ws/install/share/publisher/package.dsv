@@ -1,0 +1,15 @@
+source;share\publisher\hook\cmake_prefix_path.ps1
+source;share\publisher\hook\cmake_prefix_path.bat
+source;share\publisher\hook\cmake_prefix_path.dsv
+source;share\publisher\hook\path_dll.ps1
+source;share\publisher\hook\path_dll.bat
+source;share\publisher\hook\path_dll.dsv
+source;share\publisher\hook\path.ps1
+source;share\publisher\hook\path.bat
+source;share\publisher\hook\path.dsv
+source;share\publisher\hook\pythonpath.ps1
+source;share\publisher\hook\pythonpath.bat
+source;share\publisher\hook\pythonpath.dsv
+source;share\publisher\hook\ament_prefix_path.ps1
+source;share\publisher\hook\ament_prefix_path.bat
+source;share\publisher\hook\ament_prefix_path.dsv

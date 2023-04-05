@@ -1,0 +1,26 @@
+[1.125s] Invoking command in 'C:\dev\ros2_ws\src\shoulder_mvmt': PYTHONPATH=C:\dev\ros2_ws\build\shoulder_mvmt\prefix_override;C:\dev\ros2_ws\install\Lib\site-packages;%PYTHONPATH% c:\python38\python.exe setup.py egg_info --egg-base ..\..\build\shoulder_mvmt build --build-base C:\dev\ros2_ws\build\shoulder_mvmt\build install --record C:\dev\ros2_ws\build\shoulder_mvmt\install.log --single-version-externally-managed
+[1.516s] running egg_info
+[1.516s] writing ..\..\build\shoulder_mvmt\shoulder_mvmt.egg-info\PKG-INFO
+[1.516s] writing dependency_links to ..\..\build\shoulder_mvmt\shoulder_mvmt.egg-info\dependency_links.txt
+[1.516s] writing entry points to ..\..\build\shoulder_mvmt\shoulder_mvmt.egg-info\entry_points.txt
+[1.532s] writing requirements to ..\..\build\shoulder_mvmt\shoulder_mvmt.egg-info\requires.txt
+[1.532s] writing top-level names to ..\..\build\shoulder_mvmt\shoulder_mvmt.egg-info\top_level.txt
+[1.547s] reading manifest file '..\..\build\shoulder_mvmt\shoulder_mvmt.egg-info\SOURCES.txt'
+[1.547s] writing manifest file '..\..\build\shoulder_mvmt\shoulder_mvmt.egg-info\SOURCES.txt'
+[1.547s] running build
+[1.547s] running build_py
+[1.547s] copying shoulder_mvmt\shoulder_servos.py -> C:\dev\ros2_ws\build\shoulder_mvmt\build\lib\shoulder_mvmt
+[1.563s] running install
+[1.563s] running install_lib
+[1.563s] copying C:\dev\ros2_ws\build\shoulder_mvmt\build\lib\shoulder_mvmt\shoulder_servos.py -> C:\dev\ros2_ws\install\Lib\site-packages\shoulder_mvmt
+[1.563s] byte-compiling C:\dev\ros2_ws\install\Lib\site-packages\shoulder_mvmt\shoulder_servos.py to shoulder_servos.cpython-38.pyc
+[1.563s] running install_data
+[1.563s] copying package.xml -> C:\dev\ros2_ws\install\share\shoulder_mvmt
+[1.563s] running install_egg_info
+[1.578s] removing 'C:\dev\ros2_ws\install\Lib\site-packages\shoulder_mvmt-0.0.0-py3.8.egg-info' (and everything under it)
+[1.578s] Copying ..\..\build\shoulder_mvmt\shoulder_mvmt.egg-info to C:\dev\ros2_ws\install\Lib\site-packages\shoulder_mvmt-0.0.0-py3.8.egg-info
+[1.594s] running install_scripts
+[1.625s] Installing shoulder_servos-script.py script to C:\dev\ros2_ws\install\lib\shoulder_mvmt
+[1.625s] Installing shoulder_servos.exe script to C:\dev\ros2_ws\install\lib\shoulder_mvmt
+[1.625s] writing list of installed files to 'C:\dev\ros2_ws\build\shoulder_mvmt\install.log'
+[1.657s] Invoked command in 'C:\dev\ros2_ws\src\shoulder_mvmt' returned '0': PYTHONPATH=C:\dev\ros2_ws\build\shoulder_mvmt\prefix_override;C:\dev\ros2_ws\install\Lib\site-packages;%PYTHONPATH% c:\python38\python.exe setup.py egg_info --egg-base ..\..\build\shoulder_mvmt build --build-base C:\dev\ros2_ws\build\shoulder_mvmt\build install --record C:\dev\ros2_ws\build\shoulder_mvmt\install.log --single-version-externally-managed

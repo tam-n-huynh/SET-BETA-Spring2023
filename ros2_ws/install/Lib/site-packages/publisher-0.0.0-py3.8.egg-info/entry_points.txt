@@ -1,0 +1,5 @@
+[console_scripts]
+listener = publisher.subscriber:main
+servos = publisher.shoulder_servos:main
+talker = publisher.publisher_function:main
+

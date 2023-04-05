@@ -1,0 +1,92 @@
+[1.344s] Invoking command in 'C:\dev\ros2_ws\build\examples_rclcpp_cbg_executor': C:\Python38\Scripts\cmake.EXE C:\dev\ros2_ws\src\examples\rclcpp\executors\cbg_executor -DCMAKE_INSTALL_PREFIX=C:\dev\ros2_ws\install -G Visual Studio 17 2022
+[6.078s] -- Selecting Windows SDK version 10.0.19041.0 to target Windows 10.0.22000.
+[6.078s] -- The C compiler identification is MSVC 19.30.30705.0
+[7.625s] -- The CXX compiler identification is MSVC 19.30.30705.0
+[7.625s] -- Detecting C compiler ABI info
+[9.109s] -- Detecting C compiler ABI info - done
+[9.156s] -- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.30.30705/bin/Hostx64/x64/cl.exe - skipped
+[9.172s] -- Detecting C compile features
+[9.187s] -- Detecting C compile features - done
+[9.187s] -- Detecting CXX compiler ABI info
+[11.890s] -- Detecting CXX compiler ABI info - done
+[11.937s] -- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.30.30705/bin/Hostx64/x64/cl.exe - skipped
+[11.937s] -- Detecting CXX compile features
+[11.937s] -- Detecting CXX compile features - done
+[11.969s] -- Found ament_cmake: 1.3.3 (C:/dev/ros2/ros2-windows/share/ament_cmake/cmake)
+[20.437s] -- Found Python3: C:/Python38/python.exe (found version "3.8.3") found components: Interpreter 
+[21.031s] -- Found rclcpp: 16.0.3 (C:/dev/ros2/ros2-windows/share/rclcpp/cmake)
+[21.359s] -- Found rosidl_generator_c: 3.1.4 (C:/dev/ros2/ros2-windows/share/rosidl_generator_c/cmake)
+[21.390s] -- Found rosidl_adapter: 3.1.4 (C:/dev/ros2/ros2-windows/share/rosidl_adapter/cmake)
+[21.797s] -- Found rosidl_generator_cpp: 3.1.4 (C:/dev/ros2/ros2-windows/share/rosidl_generator_cpp/cmake)
+[22.219s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[22.922s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[23.656s] -- Found rmw_implementation_cmake: 6.1.1 (C:/dev/ros2/ros2-windows/share/rmw_implementation_cmake/cmake)
+[23.672s] -- Found rmw_fastrtps_cpp: 6.2.2 (C:/dev/ros2/ros2-windows/share/rmw_fastrtps_cpp/cmake)
+[25.094s] -- Found FastRTPS: C:/dev/ros2/ros2-windows/include  
+[25.219s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[25.469s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[27.094s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[27.094s] -- Looking for pthread_create in pthreads
+[29.390s] -- Looking for pthread_create in pthreads - not found
+[29.390s] -- Looking for pthread_create in pthread
+[31.453s] -- Looking for pthread_create in pthread - not found
+[31.453s] -- Found Threads: TRUE  
+[32.812s] -- Found std_msgs: 4.2.3 (C:/dev/ros2/ros2-windows/share/std_msgs/cmake)
+[33.422s] -- Found ament_lint_auto: 0.12.5 (C:/dev/ros2/ros2-windows/share/ament_lint_auto/cmake)
+[33.984s] -- Added test 'copyright' to check source files copyright and LICENSE
+[34.000s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[34.000s] -- Configured cppcheck include dirs: C:/dev/ros2_ws/src/examples/rclcpp/executors/cbg_executor/include
+[34.000s] -- Configured cppcheck exclude dirs and/or files: 
+[34.015s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[34.015s] -- Configured cpplint exclude dirs and/or files: 
+[34.015s] -- Added test 'lint_cmake' to check CMake code style
+[34.031s] -- Added test 'uncrustify' to check C / C++ code style
+[34.031s] -- Configured uncrustify additional arguments: 
+[34.047s] -- Added test 'xmllint' to check XML markup files
+[34.172s] -- Configuring done (32.6s)
+[35.140s] -- Generating done (0.9s)
+[35.187s] -- Build files have been written to: C:/dev/ros2_ws/build/examples_rclcpp_cbg_executor
+[35.281s] Invoked command in 'C:\dev\ros2_ws\build\examples_rclcpp_cbg_executor' returned '0': C:\Python38\Scripts\cmake.EXE C:\dev\ros2_ws\src\examples\rclcpp\executors\cbg_executor -DCMAKE_INSTALL_PREFIX=C:\dev\ros2_ws\install -G Visual Studio 17 2022
+[35.281s] Invoking command in 'C:\dev\ros2_ws\build\examples_rclcpp_cbg_executor': CL=/MP C:\Python38\Scripts\cmake.EXE --build C:\dev\ros2_ws\build\examples_rclcpp_cbg_executor --config Release
+[35.922s] Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+[35.922s] Copyright (C) Microsoft Corporation. All rights reserved.
+[35.922s] 
+[37.109s]   Checking Build System
+[37.500s]   Building Custom Rule C:/dev/ros2_ws/src/examples/rclcpp/executors/cbg_executor/CMakeLists.txt
+[37.922s]   ping.cpp
+[37.922s]   ping_node.cpp
+[57.922s]   ping.vcxproj -> C:\dev\ros2_ws\build\examples_rclcpp_cbg_executor\Release\ping.exe
+[58.125s]   Building Custom Rule C:/dev/ros2_ws/src/examples/rclcpp/executors/cbg_executor/CMakeLists.txt
+[58.422s]   ping_pong.cpp
+[58.422s]   ping_node.cpp
+[58.422s]   pong_node.cpp
+[73.000s]   ping_pong.vcxproj -> C:\dev\ros2_ws\build\examples_rclcpp_cbg_executor\Release\ping_pong.exe
+[73.125s]   Building Custom Rule C:/dev/ros2_ws/src/examples/rclcpp/executors/cbg_executor/CMakeLists.txt
+[73.281s]   pong.cpp
+[73.281s]   pong_node.cpp
+[85.078s]   pong.vcxproj -> C:\dev\ros2_ws\build\examples_rclcpp_cbg_executor\Release\pong.exe
+[85.281s]   Building Custom Rule C:/dev/ros2_ws/src/examples/rclcpp/executors/cbg_executor/CMakeLists.txt
+[85.312s] Invoked command in 'C:\dev\ros2_ws\build\examples_rclcpp_cbg_executor' returned '0': CL=/MP C:\Python38\Scripts\cmake.EXE --build C:\dev\ros2_ws\build\examples_rclcpp_cbg_executor --config Release
+[85.312s] Invoking command in 'C:\dev\ros2_ws\build\examples_rclcpp_cbg_executor': C:\Python38\Scripts\cmake.EXE --install C:\dev\ros2_ws\build\examples_rclcpp_cbg_executor --config Release
+[85.609s] -- Installing: C:/dev/ros2_ws/install/lib/examples_rclcpp_cbg_executor/ping.exe
+[85.656s] -- Installing: C:/dev/ros2_ws/install/lib/examples_rclcpp_cbg_executor/pong.exe
+[85.703s] -- Installing: C:/dev/ros2_ws/install/lib/examples_rclcpp_cbg_executor/ping_pong.exe
+[85.703s] -- Installing: C:/dev/ros2_ws/install/include
+[85.719s] -- Installing: C:/dev/ros2_ws/install/include/examples_rclcpp_cbg_executor
+[85.719s] -- Installing: C:/dev/ros2_ws/install/include/examples_rclcpp_cbg_executor/ping_node.hpp
+[85.719s] -- Installing: C:/dev/ros2_ws/install/include/examples_rclcpp_cbg_executor/pong_node.hpp
+[85.719s] -- Installing: C:/dev/ros2_ws/install/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_cbg_executor
+[85.734s] -- Installing: C:/dev/ros2_ws/install/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_cbg_executor
+[85.734s] -- Installing: C:/dev/ros2_ws/install/share/examples_rclcpp_cbg_executor/environment/ament_prefix_path.bat
+[85.734s] -- Installing: C:/dev/ros2_ws/install/share/examples_rclcpp_cbg_executor/environment/ament_prefix_path.dsv
+[85.734s] -- Installing: C:/dev/ros2_ws/install/share/examples_rclcpp_cbg_executor/environment/path.bat
+[85.750s] -- Installing: C:/dev/ros2_ws/install/share/examples_rclcpp_cbg_executor/environment/path.dsv
+[85.750s] -- Installing: C:/dev/ros2_ws/install/share/examples_rclcpp_cbg_executor/local_setup.bat
+[85.765s] -- Installing: C:/dev/ros2_ws/install/share/examples_rclcpp_cbg_executor/local_setup.dsv
+[85.781s] -- Installing: C:/dev/ros2_ws/install/share/examples_rclcpp_cbg_executor/package.dsv
+[85.797s] -- Installing: C:/dev/ros2_ws/install/share/ament_index/resource_index/packages/examples_rclcpp_cbg_executor
+[85.797s] -- Installing: C:/dev/ros2_ws/install/share/examples_rclcpp_cbg_executor/cmake/ament_cmake_export_dependencies-extras.cmake
+[85.797s] -- Installing: C:/dev/ros2_ws/install/share/examples_rclcpp_cbg_executor/cmake/examples_rclcpp_cbg_executorConfig.cmake
+[85.812s] -- Installing: C:/dev/ros2_ws/install/share/examples_rclcpp_cbg_executor/cmake/examples_rclcpp_cbg_executorConfig-version.cmake
+[85.812s] -- Installing: C:/dev/ros2_ws/install/share/examples_rclcpp_cbg_executor/package.xml
+[85.859s] Invoked command in 'C:\dev\ros2_ws\build\examples_rclcpp_cbg_executor' returned '0': C:\Python38\Scripts\cmake.EXE --install C:\dev\ros2_ws\build\examples_rclcpp_cbg_executor --config Release

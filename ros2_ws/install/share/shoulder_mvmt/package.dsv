@@ -1,0 +1,12 @@
+source;share\shoulder_mvmt\hook\cmake_prefix_path.ps1
+source;share\shoulder_mvmt\hook\cmake_prefix_path.bat
+source;share\shoulder_mvmt\hook\cmake_prefix_path.dsv
+source;share\shoulder_mvmt\hook\path_dll.ps1
+source;share\shoulder_mvmt\hook\path_dll.bat
+source;share\shoulder_mvmt\hook\path_dll.dsv
+source;share\shoulder_mvmt\hook\path.ps1
+source;share\shoulder_mvmt\hook\path.bat
+source;share\shoulder_mvmt\hook\path.dsv
+source;share\shoulder_mvmt\hook\pythonpath.ps1
+source;share\shoulder_mvmt\hook\pythonpath.bat
+source;share\shoulder_mvmt\hook\pythonpath.dsv

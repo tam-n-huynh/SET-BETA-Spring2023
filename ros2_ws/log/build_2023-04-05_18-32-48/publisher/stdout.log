@@ -1,0 +1,43 @@
+running egg_info
+creating ..\..\build\publisher\publisher.egg-info
+writing ..\..\build\publisher\publisher.egg-info\PKG-INFO
+writing dependency_links to ..\..\build\publisher\publisher.egg-info\dependency_links.txt
+writing entry points to ..\..\build\publisher\publisher.egg-info\entry_points.txt
+writing requirements to ..\..\build\publisher\publisher.egg-info\requires.txt
+writing top-level names to ..\..\build\publisher\publisher.egg-info\top_level.txt
+writing manifest file '..\..\build\publisher\publisher.egg-info\SOURCES.txt'
+reading manifest file '..\..\build\publisher\publisher.egg-info\SOURCES.txt'
+writing manifest file '..\..\build\publisher\publisher.egg-info\SOURCES.txt'
+running build
+running build_py
+creating C:\SET-BETA-Spring2023\ros2_ws\build\publisher\build
+creating C:\SET-BETA-Spring2023\ros2_ws\build\publisher\build\lib
+creating C:\SET-BETA-Spring2023\ros2_ws\build\publisher\build\lib\publisher
+copying publisher\publisher_function.py -> C:\SET-BETA-Spring2023\ros2_ws\build\publisher\build\lib\publisher
+copying publisher\shoulder_servos.py -> C:\SET-BETA-Spring2023\ros2_ws\build\publisher\build\lib\publisher
+copying publisher\subscriber.py -> C:\SET-BETA-Spring2023\ros2_ws\build\publisher\build\lib\publisher
+copying publisher\__init__.py -> C:\SET-BETA-Spring2023\ros2_ws\build\publisher\build\lib\publisher
+running install
+running install_lib
+creating C:\SET-BETA-Spring2023\ros2_ws\install\Lib\site-packages\publisher
+copying C:\SET-BETA-Spring2023\ros2_ws\build\publisher\build\lib\publisher\publisher_function.py -> C:\SET-BETA-Spring2023\ros2_ws\install\Lib\site-packages\publisher
+copying C:\SET-BETA-Spring2023\ros2_ws\build\publisher\build\lib\publisher\shoulder_servos.py -> C:\SET-BETA-Spring2023\ros2_ws\install\Lib\site-packages\publisher
+copying C:\SET-BETA-Spring2023\ros2_ws\build\publisher\build\lib\publisher\subscriber.py -> C:\SET-BETA-Spring2023\ros2_ws\install\Lib\site-packages\publisher
+copying C:\SET-BETA-Spring2023\ros2_ws\build\publisher\build\lib\publisher\__init__.py -> C:\SET-BETA-Spring2023\ros2_ws\install\Lib\site-packages\publisher
+byte-compiling C:\SET-BETA-Spring2023\ros2_ws\install\Lib\site-packages\publisher\publisher_function.py to publisher_function.cpython-38.pyc
+byte-compiling C:\SET-BETA-Spring2023\ros2_ws\install\Lib\site-packages\publisher\shoulder_servos.py to shoulder_servos.cpython-38.pyc
+byte-compiling C:\SET-BETA-Spring2023\ros2_ws\install\Lib\site-packages\publisher\subscriber.py to subscriber.cpython-38.pyc
+byte-compiling C:\SET-BETA-Spring2023\ros2_ws\install\Lib\site-packages\publisher\__init__.py to __init__.cpython-38.pyc
+running install_data
+copying resource\publisher -> C:\SET-BETA-Spring2023\ros2_ws\install\share\ament_index\resource_index\packages
+copying package.xml -> C:\SET-BETA-Spring2023\ros2_ws\install\share\publisher
+running install_egg_info
+Copying ..\..\build\publisher\publisher.egg-info to C:\SET-BETA-Spring2023\ros2_ws\install\Lib\site-packages\publisher-0.0.0-py3.8.egg-info
+running install_scripts
+Installing listener-script.py script to C:\SET-BETA-Spring2023\ros2_ws\install\lib\publisher
+Installing listener.exe script to C:\SET-BETA-Spring2023\ros2_ws\install\lib\publisher
+Installing servos-script.py script to C:\SET-BETA-Spring2023\ros2_ws\install\lib\publisher
+Installing servos.exe script to C:\SET-BETA-Spring2023\ros2_ws\install\lib\publisher
+Installing talker-script.py script to C:\SET-BETA-Spring2023\ros2_ws\install\lib\publisher
+Installing talker.exe script to C:\SET-BETA-Spring2023\ros2_ws\install\lib\publisher
+writing list of installed files to 'C:\SET-BETA-Spring2023\ros2_ws\build\publisher\install.log'

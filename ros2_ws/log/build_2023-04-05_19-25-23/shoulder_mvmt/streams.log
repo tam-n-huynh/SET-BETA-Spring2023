@@ -1,0 +1,22 @@
+[2.547s] Invoking command in 'C:\SET-BETA-Spring2023\ros2_ws\src\shoulder_mvmt': PYTHONPATH=C:\SET-BETA-Spring2023\ros2_ws\build\shoulder_mvmt\prefix_override;C:\SET-BETA-Spring2023\ros2_ws\install\Lib\site-packages;%PYTHONPATH% c:\python38\python.exe setup.py egg_info --egg-base ..\..\build\shoulder_mvmt build --build-base C:\SET-BETA-Spring2023\ros2_ws\build\shoulder_mvmt\build install --record C:\SET-BETA-Spring2023\ros2_ws\build\shoulder_mvmt\install.log --single-version-externally-managed
+[3.172s] running egg_info
+[3.172s] writing ..\..\build\shoulder_mvmt\shoulder_mvmt.egg-info\PKG-INFO
+[3.172s] writing dependency_links to ..\..\build\shoulder_mvmt\shoulder_mvmt.egg-info\dependency_links.txt
+[3.172s] writing entry points to ..\..\build\shoulder_mvmt\shoulder_mvmt.egg-info\entry_points.txt
+[3.188s] writing requirements to ..\..\build\shoulder_mvmt\shoulder_mvmt.egg-info\requires.txt
+[3.188s] writing top-level names to ..\..\build\shoulder_mvmt\shoulder_mvmt.egg-info\top_level.txt
+[3.219s] reading manifest file '..\..\build\shoulder_mvmt\shoulder_mvmt.egg-info\SOURCES.txt'
+[3.219s] writing manifest file '..\..\build\shoulder_mvmt\shoulder_mvmt.egg-info\SOURCES.txt'
+[3.219s] running build
+[3.219s] running build_py
+[3.219s] running install
+[3.219s] running install_lib
+[3.235s] running install_data
+[3.235s] running install_egg_info
+[3.235s] removing 'C:\SET-BETA-Spring2023\ros2_ws\install\Lib\site-packages\shoulder_mvmt-0.0.0-py3.8.egg-info' (and everything under it)
+[3.250s] Copying ..\..\build\shoulder_mvmt\shoulder_mvmt.egg-info to C:\SET-BETA-Spring2023\ros2_ws\install\Lib\site-packages\shoulder_mvmt-0.0.0-py3.8.egg-info
+[3.266s] running install_scripts
+[3.313s] Installing shoulder_servos-script.py script to C:\SET-BETA-Spring2023\ros2_ws\install\lib\shoulder_mvmt
+[3.313s] Installing shoulder_servos.exe script to C:\SET-BETA-Spring2023\ros2_ws\install\lib\shoulder_mvmt
+[3.313s] writing list of installed files to 'C:\SET-BETA-Spring2023\ros2_ws\build\shoulder_mvmt\install.log'
+[3.360s] Invoked command in 'C:\SET-BETA-Spring2023\ros2_ws\src\shoulder_mvmt' returned '0': PYTHONPATH=C:\SET-BETA-Spring2023\ros2_ws\build\shoulder_mvmt\prefix_override;C:\SET-BETA-Spring2023\ros2_ws\install\Lib\site-packages;%PYTHONPATH% c:\python38\python.exe setup.py egg_info --egg-base ..\..\build\shoulder_mvmt build --build-base C:\SET-BETA-Spring2023\ros2_ws\build\shoulder_mvmt\build install --record C:\SET-BETA-Spring2023\ros2_ws\build\shoulder_mvmt\install.log --single-version-externally-managed

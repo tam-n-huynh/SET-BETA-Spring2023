@@ -1,0 +1,3 @@
+[console_scripts]
+shoulder_servos = shoulder_mvmt.shoulder_servos:main
+

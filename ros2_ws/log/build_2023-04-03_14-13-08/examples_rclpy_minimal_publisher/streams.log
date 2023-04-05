@@ -1,0 +1,45 @@
+[7.031s] Invoking command in 'C:\dev\ros2_ws\src\examples\rclpy\topics\minimal_publisher': PYTHONPATH=C:\dev\ros2_ws\build\examples_rclpy_minimal_publisher\prefix_override;C:\dev\ros2_ws\install\Lib\site-packages;%PYTHONPATH% c:\python38\python.exe setup.py egg_info --egg-base ..\..\..\..\..\build\examples_rclpy_minimal_publisher build --build-base C:\dev\ros2_ws\build\examples_rclpy_minimal_publisher\build install --record C:\dev\ros2_ws\build\examples_rclpy_minimal_publisher\install.log --single-version-externally-managed
+[7.984s] running egg_info
+[7.984s] creating ..\..\..\..\..\build\examples_rclpy_minimal_publisher\examples_rclpy_minimal_publisher.egg-info
+[7.984s] writing ..\..\..\..\..\build\examples_rclpy_minimal_publisher\examples_rclpy_minimal_publisher.egg-info\PKG-INFO
+[7.984s] writing dependency_links to ..\..\..\..\..\build\examples_rclpy_minimal_publisher\examples_rclpy_minimal_publisher.egg-info\dependency_links.txt
+[7.984s] writing entry points to ..\..\..\..\..\build\examples_rclpy_minimal_publisher\examples_rclpy_minimal_publisher.egg-info\entry_points.txt
+[7.984s] writing requirements to ..\..\..\..\..\build\examples_rclpy_minimal_publisher\examples_rclpy_minimal_publisher.egg-info\requires.txt
+[8.000s] writing top-level names to ..\..\..\..\..\build\examples_rclpy_minimal_publisher\examples_rclpy_minimal_publisher.egg-info\top_level.txt
+[8.000s] writing manifest file '..\..\..\..\..\build\examples_rclpy_minimal_publisher\examples_rclpy_minimal_publisher.egg-info\SOURCES.txt'
+[8.062s] reading manifest file '..\..\..\..\..\build\examples_rclpy_minimal_publisher\examples_rclpy_minimal_publisher.egg-info\SOURCES.txt'
+[8.062s] writing manifest file '..\..\..\..\..\build\examples_rclpy_minimal_publisher\examples_rclpy_minimal_publisher.egg-info\SOURCES.txt'
+[8.062s] running build
+[8.062s] running build_py
+[8.062s] creating C:\dev\ros2_ws\build\examples_rclpy_minimal_publisher\build
+[8.062s] creating C:\dev\ros2_ws\build\examples_rclpy_minimal_publisher\build\lib
+[8.062s] creating C:\dev\ros2_ws\build\examples_rclpy_minimal_publisher\build\lib\examples_rclpy_minimal_publisher
+[8.062s] copying examples_rclpy_minimal_publisher\publisher_local_function.py -> C:\dev\ros2_ws\build\examples_rclpy_minimal_publisher\build\lib\examples_rclpy_minimal_publisher
+[8.062s] copying examples_rclpy_minimal_publisher\publisher_member_function.py -> C:\dev\ros2_ws\build\examples_rclpy_minimal_publisher\build\lib\examples_rclpy_minimal_publisher
+[8.078s] copying examples_rclpy_minimal_publisher\publisher_old_school.py -> C:\dev\ros2_ws\build\examples_rclpy_minimal_publisher\build\lib\examples_rclpy_minimal_publisher
+[8.078s] copying examples_rclpy_minimal_publisher\__init__.py -> C:\dev\ros2_ws\build\examples_rclpy_minimal_publisher\build\lib\examples_rclpy_minimal_publisher
+[8.078s] running install
+[8.078s] running install_lib
+[8.078s] creating C:\dev\ros2_ws\install\Lib\site-packages\examples_rclpy_minimal_publisher
+[8.078s] copying C:\dev\ros2_ws\build\examples_rclpy_minimal_publisher\build\lib\examples_rclpy_minimal_publisher\publisher_local_function.py -> C:\dev\ros2_ws\install\Lib\site-packages\examples_rclpy_minimal_publisher
+[8.093s] copying C:\dev\ros2_ws\build\examples_rclpy_minimal_publisher\build\lib\examples_rclpy_minimal_publisher\publisher_member_function.py -> C:\dev\ros2_ws\install\Lib\site-packages\examples_rclpy_minimal_publisher
+[8.109s] copying C:\dev\ros2_ws\build\examples_rclpy_minimal_publisher\build\lib\examples_rclpy_minimal_publisher\publisher_old_school.py -> C:\dev\ros2_ws\install\Lib\site-packages\examples_rclpy_minimal_publisher
+[8.125s] copying C:\dev\ros2_ws\build\examples_rclpy_minimal_publisher\build\lib\examples_rclpy_minimal_publisher\__init__.py -> C:\dev\ros2_ws\install\Lib\site-packages\examples_rclpy_minimal_publisher
+[8.140s] byte-compiling C:\dev\ros2_ws\install\Lib\site-packages\examples_rclpy_minimal_publisher\publisher_local_function.py to publisher_local_function.cpython-38.pyc
+[8.140s] byte-compiling C:\dev\ros2_ws\install\Lib\site-packages\examples_rclpy_minimal_publisher\publisher_member_function.py to publisher_member_function.cpython-38.pyc
+[8.156s] byte-compiling C:\dev\ros2_ws\install\Lib\site-packages\examples_rclpy_minimal_publisher\publisher_old_school.py to publisher_old_school.cpython-38.pyc
+[8.156s] byte-compiling C:\dev\ros2_ws\install\Lib\site-packages\examples_rclpy_minimal_publisher\__init__.py to __init__.cpython-38.pyc
+[8.156s] running install_data
+[8.156s] copying resource\examples_rclpy_minimal_publisher -> C:\dev\ros2_ws\install\share\ament_index\resource_index\packages
+[8.156s] copying package.xml -> C:\dev\ros2_ws\install\share\examples_rclpy_minimal_publisher
+[8.172s] running install_egg_info
+[8.187s] Copying ..\..\..\..\..\build\examples_rclpy_minimal_publisher\examples_rclpy_minimal_publisher.egg-info to C:\dev\ros2_ws\install\Lib\site-packages\examples_rclpy_minimal_publisher-0.17.1-py3.8.egg-info
+[8.250s] running install_scripts
+[8.312s] Installing publisher_local_function-script.py script to C:\dev\ros2_ws\install\lib\examples_rclpy_minimal_publisher
+[8.312s] Installing publisher_local_function.exe script to C:\dev\ros2_ws\install\lib\examples_rclpy_minimal_publisher
+[8.312s] Installing publisher_member_function-script.py script to C:\dev\ros2_ws\install\lib\examples_rclpy_minimal_publisher
+[8.312s] Installing publisher_member_function.exe script to C:\dev\ros2_ws\install\lib\examples_rclpy_minimal_publisher
+[8.312s] Installing publisher_old_school-script.py script to C:\dev\ros2_ws\install\lib\examples_rclpy_minimal_publisher
+[8.328s] Installing publisher_old_school.exe script to C:\dev\ros2_ws\install\lib\examples_rclpy_minimal_publisher
+[8.328s] writing list of installed files to 'C:\dev\ros2_ws\build\examples_rclpy_minimal_publisher\install.log'
+[8.656s] Invoked command in 'C:\dev\ros2_ws\src\examples\rclpy\topics\minimal_publisher' returned '0': PYTHONPATH=C:\dev\ros2_ws\build\examples_rclpy_minimal_publisher\prefix_override;C:\dev\ros2_ws\install\Lib\site-packages;%PYTHONPATH% c:\python38\python.exe setup.py egg_info --egg-base ..\..\..\..\..\build\examples_rclpy_minimal_publisher build --build-base C:\dev\ros2_ws\build\examples_rclpy_minimal_publisher\build install --record C:\dev\ros2_ws\build\examples_rclpy_minimal_publisher\install.log --single-version-externally-managed

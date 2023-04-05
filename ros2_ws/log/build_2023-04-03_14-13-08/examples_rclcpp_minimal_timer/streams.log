@@ -1,0 +1,78 @@
+[0.719s] Invoking command in 'C:\dev\ros2_ws\build\examples_rclcpp_minimal_timer': C:\Python38\Scripts\cmake.EXE C:\dev\ros2_ws\src\examples\rclcpp\timers\minimal_timer -DCMAKE_INSTALL_PREFIX=C:\dev\ros2_ws\install -G Visual Studio 17 2022
+[5.375s] -- Selecting Windows SDK version 10.0.19041.0 to target Windows 10.0.22000.
+[5.375s] -- The C compiler identification is MSVC 19.30.30705.0
+[6.922s] -- The CXX compiler identification is MSVC 19.30.30705.0
+[6.922s] -- Detecting C compiler ABI info
+[8.656s] -- Detecting C compiler ABI info - done
+[8.719s] -- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.30.30705/bin/Hostx64/x64/cl.exe - skipped
+[8.719s] -- Detecting C compile features
+[8.734s] -- Detecting C compile features - done
+[8.766s] -- Detecting CXX compiler ABI info
+[11.109s] -- Detecting CXX compiler ABI info - done
+[11.172s] -- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.30.30705/bin/Hostx64/x64/cl.exe - skipped
+[11.187s] -- Detecting CXX compile features
+[11.187s] -- Detecting CXX compile features - done
+[11.219s] -- Found ament_cmake: 1.3.3 (C:/dev/ros2/ros2-windows/share/ament_cmake/cmake)
+[19.703s] -- Found Python3: C:/Python38/python.exe (found version "3.8.3") found components: Interpreter 
+[20.281s] -- Found rclcpp: 16.0.3 (C:/dev/ros2/ros2-windows/share/rclcpp/cmake)
+[20.609s] -- Found rosidl_generator_c: 3.1.4 (C:/dev/ros2/ros2-windows/share/rosidl_generator_c/cmake)
+[20.656s] -- Found rosidl_adapter: 3.1.4 (C:/dev/ros2/ros2-windows/share/rosidl_adapter/cmake)
+[21.094s] -- Found rosidl_generator_cpp: 3.1.4 (C:/dev/ros2/ros2-windows/share/rosidl_generator_cpp/cmake)
+[21.516s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[22.219s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[22.953s] -- Found rmw_implementation_cmake: 6.1.1 (C:/dev/ros2/ros2-windows/share/rmw_implementation_cmake/cmake)
+[22.953s] -- Found rmw_fastrtps_cpp: 6.2.2 (C:/dev/ros2/ros2-windows/share/rmw_fastrtps_cpp/cmake)
+[24.406s] -- Found FastRTPS: C:/dev/ros2/ros2-windows/include  
+[24.516s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[24.750s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[26.969s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[26.969s] -- Looking for pthread_create in pthreads
+[29.219s] -- Looking for pthread_create in pthreads - not found
+[29.219s] -- Looking for pthread_create in pthread
+[31.172s] -- Looking for pthread_create in pthread - not found
+[31.172s] -- Found Threads: TRUE  
+[32.078s] -- Found ament_lint_auto: 0.12.5 (C:/dev/ros2/ros2-windows/share/ament_lint_auto/cmake)
+[32.703s] -- Added test 'copyright' to check source files copyright and LICENSE
+[32.734s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[32.734s] -- Configured cppcheck include dirs: 
+[32.734s] -- Configured cppcheck exclude dirs and/or files: 
+[32.750s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[32.750s] -- Configured cpplint exclude dirs and/or files: 
+[32.766s] -- Added test 'lint_cmake' to check CMake code style
+[32.781s] -- Added test 'uncrustify' to check C / C++ code style
+[32.781s] -- Configured uncrustify additional arguments: 
+[32.797s] -- Added test 'xmllint' to check XML markup files
+[32.875s] -- Configuring done (31.9s)
+[34.172s] -- Generating done (1.2s)
+[34.234s] -- Build files have been written to: C:/dev/ros2_ws/build/examples_rclcpp_minimal_timer
+[34.328s] Invoked command in 'C:\dev\ros2_ws\build\examples_rclcpp_minimal_timer' returned '0': C:\Python38\Scripts\cmake.EXE C:\dev\ros2_ws\src\examples\rclcpp\timers\minimal_timer -DCMAKE_INSTALL_PREFIX=C:\dev\ros2_ws\install -G Visual Studio 17 2022
+[34.328s] Invoking command in 'C:\dev\ros2_ws\build\examples_rclcpp_minimal_timer': CL=/MP C:\Python38\Scripts\cmake.EXE --build C:\dev\ros2_ws\build\examples_rclcpp_minimal_timer --config Release
+[35.172s] Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+[35.172s] Copyright (C) Microsoft Corporation. All rights reserved.
+[35.172s] 
+[36.031s]   Checking Build System
+[36.453s]   Building Custom Rule C:/dev/ros2_ws/src/examples/rclcpp/timers/minimal_timer/CMakeLists.txt
+[36.781s]   lambda.cpp
+[50.812s]   timer_lambda.vcxproj -> C:\dev\ros2_ws\build\examples_rclcpp_minimal_timer\Release\timer_lambda.exe
+[51.484s]   Building Custom Rule C:/dev/ros2_ws/src/examples/rclcpp/timers/minimal_timer/CMakeLists.txt
+[52.250s]   member_function.cpp
+[63.437s]   timer_member_function.vcxproj -> C:\dev\ros2_ws\build\examples_rclcpp_minimal_timer\Release\timer_member_function.exe
+[63.516s]   Building Custom Rule C:/dev/ros2_ws/src/examples/rclcpp/timers/minimal_timer/CMakeLists.txt
+[63.687s] Invoked command in 'C:\dev\ros2_ws\build\examples_rclcpp_minimal_timer' returned '0': CL=/MP C:\Python38\Scripts\cmake.EXE --build C:\dev\ros2_ws\build\examples_rclcpp_minimal_timer --config Release
+[63.687s] Invoking command in 'C:\dev\ros2_ws\build\examples_rclcpp_minimal_timer': C:\Python38\Scripts\cmake.EXE --install C:\dev\ros2_ws\build\examples_rclcpp_minimal_timer --config Release
+[63.906s] -- Installing: C:/dev/ros2_ws/install/lib/examples_rclcpp_minimal_timer/timer_lambda.exe
+[64.047s] -- Installing: C:/dev/ros2_ws/install/lib/examples_rclcpp_minimal_timer/timer_member_function.exe
+[64.094s] -- Installing: C:/dev/ros2_ws/install/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_timer
+[64.141s] -- Installing: C:/dev/ros2_ws/install/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_timer
+[64.141s] -- Installing: C:/dev/ros2_ws/install/share/examples_rclcpp_minimal_timer/environment/ament_prefix_path.bat
+[64.156s] -- Installing: C:/dev/ros2_ws/install/share/examples_rclcpp_minimal_timer/environment/ament_prefix_path.dsv
+[64.156s] -- Installing: C:/dev/ros2_ws/install/share/examples_rclcpp_minimal_timer/environment/path.bat
+[64.203s] -- Installing: C:/dev/ros2_ws/install/share/examples_rclcpp_minimal_timer/environment/path.dsv
+[64.219s] -- Installing: C:/dev/ros2_ws/install/share/examples_rclcpp_minimal_timer/local_setup.bat
+[64.234s] -- Installing: C:/dev/ros2_ws/install/share/examples_rclcpp_minimal_timer/local_setup.dsv
+[64.297s] -- Installing: C:/dev/ros2_ws/install/share/examples_rclcpp_minimal_timer/package.dsv
+[64.391s] -- Installing: C:/dev/ros2_ws/install/share/ament_index/resource_index/packages/examples_rclcpp_minimal_timer
+[64.391s] -- Installing: C:/dev/ros2_ws/install/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig.cmake
+[64.391s] -- Installing: C:/dev/ros2_ws/install/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig-version.cmake
+[64.391s] -- Installing: C:/dev/ros2_ws/install/share/examples_rclcpp_minimal_timer/package.xml
+[64.484s] Invoked command in 'C:\dev\ros2_ws\build\examples_rclcpp_minimal_timer' returned '0': C:\Python38\Scripts\cmake.EXE --install C:\dev\ros2_ws\build\examples_rclcpp_minimal_timer --config Release

@@ -1,0 +1,37 @@
+[0.110s] Invoking command in 'C:\dev\ros2_ws\build\my_package': C:\Program Files\CMake\bin\cmake.EXE C:\dev\ros2_ws\src\my_package -DCMAKE_INSTALL_PREFIX=C:\dev\ros2_ws\install -G Visual Studio 17 2022
+[0.203s] -- Selecting Windows SDK version 10.0.19041.0 to target Windows 10.0.22000.
+[2.328s] -- The C compiler identification is MSVC 19.30.30705.0
+[3.266s] -- The CXX compiler identification is MSVC 19.30.30705.0
+[3.469s] -- Detecting C compiler ABI info
+[4.391s] -- Detecting C compiler ABI info - done
+[4.407s] -- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.30.30705/bin/Hostx64/x64/cl.exe - skipped
+[4.422s] -- Detecting C compile features
+[4.438s] -- Detecting C compile features - done
+[4.469s] -- Detecting CXX compiler ABI info
+[5.328s] -- Detecting CXX compiler ABI info - done
+[5.344s] -- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.30.30705/bin/Hostx64/x64/cl.exe - skipped
+[5.344s] -- Detecting CXX compile features
+[5.344s] -- Detecting CXX compile features - done
+[5.375s] -- Found ament_cmake: 1.3.3 (C:/dev/ros2/ros2-windows/share/ament_cmake/cmake)
+[10.125s] -- Found Python3: C:/Program Files/WindowsApps/PythonSoftwareFoundation.Python.3.10_3.10.2800.0_x64__qbz5n2kfra8p0/python3.10.exe (found version "3.10.10") found components: Interpreter 
+[11.094s] -- Found ament_lint_auto: 0.12.5 (C:/dev/ros2/ros2-windows/share/ament_lint_auto/cmake)
+[11.250s] Traceback (most recent call last):
+[11.250s]   File "C:\dev\ros2\ros2-windows\share\ament_cmake_core\cmake\core\package_xml_2_cmake.py", line 22, in <module>
+[11.250s]     from catkin_pkg.package import parse_package_string
+[11.250s] ModuleNotFoundError: No module named 'catkin_pkg'
+[11.266s] CMake Error at C:/dev/ros2/ros2-windows/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[11.266s]   execute_process(C:/Program
+[11.266s]   Files/WindowsApps/PythonSoftwareFoundation.Python.3.10_3.10.2800.0_x64__qbz5n2kfra8p0/python3.10.exe
+[11.266s]   C:/dev/ros2/ros2-windows/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[11.266s]   C:/dev/ros2_ws/src/my_package/package.xml
+[11.266s]   C:/dev/ros2_ws/build/my_package/ament_cmake_core/package.cmake) returned
+[11.266s]   error code 1
+[11.266s] Call Stack (most recent call first):
+[11.266s]   C:/dev/ros2/ros2-windows/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[11.266s]   C:/dev/ros2/ros2-windows/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[11.266s]   CMakeLists.txt:32 (ament_lint_auto_find_test_dependencies)
+[11.266s] 
+[11.266s] 
+[11.266s] -- Configuring incomplete, errors occurred!
+[11.266s] See also "C:/dev/ros2_ws/build/my_package/CMakeFiles/CMakeOutput.log".
+[11.282s] Invoked command in 'C:\dev\ros2_ws\build\my_package' returned '1': C:\Program Files\CMake\bin\cmake.EXE C:\dev\ros2_ws\src\my_package -DCMAKE_INSTALL_PREFIX=C:\dev\ros2_ws\install -G Visual Studio 17 2022
