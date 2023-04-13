@@ -14,9 +14,9 @@ class MinimalPublisher(Node):
         self.i = 0
 
     def timer_callback(self):
-        angles = ['90', '45']
+        motions = ['w', 's']
         msg = String()
-        msg.data = angles[self.i % 2]
+        msg.data = motions[self.i % 2]
         self.publisher_.publish(msg)
         self.get_logger().info('Publishing: "%s"' % msg.data)
         self.i += 1

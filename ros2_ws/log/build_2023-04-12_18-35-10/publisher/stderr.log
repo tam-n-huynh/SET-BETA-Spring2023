@@ -1,0 +1,5 @@
+  File "C:\SET-BETA-Spring2023\ros2_ws\install\Lib\site-packages\publisher\wheel_drive.py", line 24
+    if msg.data = 'w' :
+                ^
+SyntaxError: invalid syntax
+

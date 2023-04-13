@@ -2,4 +2,5 @@
 listener = publisher.subscriber:main
 servos = publisher.shoulder_servos:main
 talker = publisher.publisher_function:main
+wheels = publisher.wheel_drive:main
 

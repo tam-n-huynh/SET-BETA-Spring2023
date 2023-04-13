@@ -1,0 +1,37 @@
+[2.985s] Invoking command in 'C:\SET-BETA-Spring2023\ros2_ws\src\publisher': PYTHONPATH=C:\SET-BETA-Spring2023\ros2_ws\build\publisher\prefix_override;C:\SET-BETA-Spring2023\ros2_ws\install\Lib\site-packages;%PYTHONPATH% c:\python38\python.exe setup.py egg_info --egg-base ..\..\build\publisher build --build-base C:\SET-BETA-Spring2023\ros2_ws\build\publisher\build install --record C:\SET-BETA-Spring2023\ros2_ws\build\publisher\install.log --single-version-externally-managed
+[3.657s] running egg_info
+[3.657s] writing ..\..\build\publisher\publisher.egg-info\PKG-INFO
+[3.672s] writing dependency_links to ..\..\build\publisher\publisher.egg-info\dependency_links.txt
+[3.672s] writing entry points to ..\..\build\publisher\publisher.egg-info\entry_points.txt
+[3.672s] writing requirements to ..\..\build\publisher\publisher.egg-info\requires.txt
+[3.672s] writing top-level names to ..\..\build\publisher\publisher.egg-info\top_level.txt
+[3.719s] reading manifest file '..\..\build\publisher\publisher.egg-info\SOURCES.txt'
+[3.719s] writing manifest file '..\..\build\publisher\publisher.egg-info\SOURCES.txt'
+[3.719s] running build
+[3.719s] running build_py
+[3.719s] running install
+[3.735s] running install_lib
+[3.735s] copying C:\SET-BETA-Spring2023\ros2_ws\build\publisher\build\lib\publisher\publisher_function.py -> C:\SET-BETA-Spring2023\ros2_ws\install\Lib\site-packages\publisher
+[3.735s] copying C:\SET-BETA-Spring2023\ros2_ws\build\publisher\build\lib\publisher\wheel_drive.py -> C:\SET-BETA-Spring2023\ros2_ws\install\Lib\site-packages\publisher
+[3.735s] copying C:\SET-BETA-Spring2023\ros2_ws\build\publisher\build\lib\publisher\wheel_movements.py -> C:\SET-BETA-Spring2023\ros2_ws\install\Lib\site-packages\publisher
+[3.750s] byte-compiling C:\SET-BETA-Spring2023\ros2_ws\install\Lib\site-packages\publisher\publisher_function.py to publisher_function.cpython-38.pyc
+[3.766s] byte-compiling C:\SET-BETA-Spring2023\ros2_ws\install\Lib\site-packages\publisher\wheel_drive.py to wheel_drive.cpython-38.pyc
+[3.766s] byte-compiling C:\SET-BETA-Spring2023\ros2_ws\install\Lib\site-packages\publisher\wheel_movements.py to wheel_movements.cpython-38.pyc
+[3.766s] running install_data
+[3.766s] running install_egg_info
+[3.782s] removing 'C:\SET-BETA-Spring2023\ros2_ws\install\Lib\site-packages\publisher-0.0.0-py3.8.egg-info' (and everything under it)
+[3.782s] Copying ..\..\build\publisher\publisher.egg-info to C:\SET-BETA-Spring2023\ros2_ws\install\Lib\site-packages\publisher-0.0.0-py3.8.egg-info
+[3.813s] running install_scripts
+[3.860s] Installing listener-script.py script to C:\SET-BETA-Spring2023\ros2_ws\install\lib\publisher
+[3.860s] Installing listener.exe script to C:\SET-BETA-Spring2023\ros2_ws\install\lib\publisher
+[3.875s] Installing servos-script.py script to C:\SET-BETA-Spring2023\ros2_ws\install\lib\publisher
+[3.875s] Installing servos.exe script to C:\SET-BETA-Spring2023\ros2_ws\install\lib\publisher
+[3.875s] Installing talker-script.py script to C:\SET-BETA-Spring2023\ros2_ws\install\lib\publisher
+[3.875s] Installing talker.exe script to C:\SET-BETA-Spring2023\ros2_ws\install\lib\publisher
+[3.875s] writing list of installed files to 'C:\SET-BETA-Spring2023\ros2_ws\build\publisher\install.log'
+[3.875s]   File "C:\SET-BETA-Spring2023\ros2_ws\install\Lib\site-packages\publisher\wheel_drive.py", line 24
+[3.875s]     if msg.data = 'w' :
+[3.875s]                 ^
+[3.875s] SyntaxError: invalid syntax
+[3.875s] 
+[4.016s] Invoked command in 'C:\SET-BETA-Spring2023\ros2_ws\src\publisher' returned '0': PYTHONPATH=C:\SET-BETA-Spring2023\ros2_ws\build\publisher\prefix_override;C:\SET-BETA-Spring2023\ros2_ws\install\Lib\site-packages;%PYTHONPATH% c:\python38\python.exe setup.py egg_info --egg-base ..\..\build\publisher build --build-base C:\SET-BETA-Spring2023\ros2_ws\build\publisher\build install --record C:\SET-BETA-Spring2023\ros2_ws\build\publisher\install.log --single-version-externally-managed

@@ -1,0 +1,185 @@
+[1.095s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['C:\\Python38\\Scripts\\colcon', 'build', '--merge-install'][0m
+[1.096s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x0000022498903460>>, merge_install=True, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=16, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x0000022498903460>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x0000022498903910>)[0m
+[1.196s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[1.196s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[1.196s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[1.196s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[1.196s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[1.196s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[1.196s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in 'C:\SET-BETA-Spring2023\ros2_ws'
+[1.197s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.197s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[1.197s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[1.197s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[1.197s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[1.197s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[1.197s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[1.198s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[1.198s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[1.250s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[1.250s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[1.250s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[1.250s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[1.250s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[1.251s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.251s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[1.251s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[1.252s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.252s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[1.252s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[1.253s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.253s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[1.253s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[1.253s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.253s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[1.254s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[1.254s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[1.254s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[1.254s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[1.254s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[1.254s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[1.254s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[1.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[1.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[1.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[1.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[1.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[1.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\publisher) by extensions ['ignore', 'ignore_ament_install']
+[1.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\publisher) by extension 'ignore'
+[1.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\publisher) by extension 'ignore_ament_install'
+[1.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\publisher) by extensions ['colcon_pkg']
+[1.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\publisher) by extension 'colcon_pkg'
+[1.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\publisher) by extensions ['colcon_meta']
+[1.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\publisher) by extension 'colcon_meta'
+[1.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\publisher) by extensions ['ros']
+[1.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\publisher) by extension 'ros'
+[1.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src\publisher' with type 'ros.ament_python' and name 'publisher'[0m
+[1.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\shoulder_mvmt) by extensions ['ignore', 'ignore_ament_install']
+[1.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\shoulder_mvmt) by extension 'ignore'
+[1.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\shoulder_mvmt) by extension 'ignore_ament_install'
+[1.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\shoulder_mvmt) by extensions ['colcon_pkg']
+[1.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\shoulder_mvmt) by extension 'colcon_pkg'
+[1.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\shoulder_mvmt) by extensions ['colcon_meta']
+[1.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\shoulder_mvmt) by extension 'colcon_meta'
+[1.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\shoulder_mvmt) by extensions ['ros']
+[1.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\shoulder_mvmt) by extension 'ros'
+[1.267s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mFound ROS schema reference in package manifest in 'src\shoulder_mvmt'[0m
+[1.267s] [34mcolcon.colcon_core.package_identification[0m [1;30mWARNING[0m [33mFailed to parse ROS package manifest in 'src\shoulder_mvmt': The "maintainer" tag must have the attribute "email"[0m
+[1.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\shoulder_mvmt) by extensions ['cmake', 'python']
+[1.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\shoulder_mvmt) by extension 'cmake'
+[1.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\shoulder_mvmt) by extension 'python'
+[1.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPython package in 'src\shoulder_mvmt' passes arguments to the setup() function which requires a different identification extension than 'python'[0m
+[1.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\shoulder_mvmt) by extensions ['python_setup_py']
+[1.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\shoulder_mvmt) by extension 'python_setup_py'
+[1.932s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src\shoulder_mvmt' with type 'python' and name 'shoulder_mvmt'[0m
+[1.932s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[1.932s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[1.932s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[1.932s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[1.932s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[2.019s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'publisher' build argument 'cmake_args' from command line to 'None'
+[2.019s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'publisher' build argument 'cmake_target' from command line to 'None'
+[2.019s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.019s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[2.019s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'publisher' build argument 'cmake_clean_first' from command line to 'False'
+[2.019s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'publisher' build argument 'cmake_force_configure' from command line to 'False'
+[2.019s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'publisher' build argument 'ament_cmake_args' from command line to 'None'
+[2.019s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[2.019s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.019s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': 'C:\\SET-BETA-Spring2023\\ros2_ws\\build\\publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': 'C:\\SET-BETA-Spring2023\\ros2_ws\\install', 'merge_install': True, 'path': 'C:\\SET-BETA-Spring2023\\ros2_ws\\src\\publisher', 'symlink_install': False, 'test_result_base': None}[0m
+[2.033s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'shoulder_mvmt' build argument 'cmake_args' from command line to 'None'
+[2.033s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'shoulder_mvmt' build argument 'cmake_target' from command line to 'None'
+[2.033s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'shoulder_mvmt' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.033s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'shoulder_mvmt' build argument 'cmake_clean_cache' from command line to 'False'
+[2.034s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'shoulder_mvmt' build argument 'cmake_clean_first' from command line to 'False'
+[2.034s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'shoulder_mvmt' build argument 'cmake_force_configure' from command line to 'False'
+[2.034s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'shoulder_mvmt' build argument 'ament_cmake_args' from command line to 'None'
+[2.034s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'shoulder_mvmt' build argument 'catkin_cmake_args' from command line to 'None'
+[2.034s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'shoulder_mvmt' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.034s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'shoulder_mvmt' with the following arguments: {'ament_cmake_args': None, 'build_base': 'C:\\SET-BETA-Spring2023\\ros2_ws\\build\\shoulder_mvmt', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': 'C:\\SET-BETA-Spring2023\\ros2_ws\\install', 'merge_install': True, 'path': 'C:\\SET-BETA-Spring2023\\ros2_ws\\src\\shoulder_mvmt', 'symlink_install': False, 'test_result_base': None}[0m
+[2.037s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[2.063s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[2.063s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in 'C:\SET-BETA-Spring2023\ros2_ws\src\publisher' with build type 'ament_python'
+[2.064s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('publisher', 'ament_prefix_path')
+[2.079s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.sh': Not used on Windows systems
+[2.079s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\SET-BETA-Spring2023\ros2_ws\install\share\publisher\hook\ament_prefix_path.ps1'
+[2.081s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\SET-BETA-Spring2023\ros2_ws\install\share\publisher\hook\ament_prefix_path.bat'
+[2.083s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\SET-BETA-Spring2023\ros2_ws\install\share\publisher\hook\ament_prefix_path.dsv'
+[2.096s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.236s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in 'C:\SET-BETA-Spring2023\ros2_ws\src\shoulder_mvmt'
+[2.245s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.970s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in 'C:\SET-BETA-Spring2023\ros2_ws\src\publisher'
+[2.978s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.657s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in 'C:\SET-BETA-Spring2023\ros2_ws\src\publisher': PYTHONPATH=C:\SET-BETA-Spring2023\ros2_ws\build\publisher\prefix_override;C:\SET-BETA-Spring2023\ros2_ws\install\Lib\site-packages;%PYTHONPATH% c:\python38\python.exe setup.py egg_info --egg-base ..\..\build\publisher build --build-base C:\SET-BETA-Spring2023\ros2_ws\build\publisher\build install --record C:\SET-BETA-Spring2023\ros2_ws\build\publisher\install.log --single-version-externally-managed[0m
+[4.665s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in 'C:\SET-BETA-Spring2023\ros2_ws\src\shoulder_mvmt': PYTHONPATH=C:\SET-BETA-Spring2023\ros2_ws\build\shoulder_mvmt\prefix_override;C:\SET-BETA-Spring2023\ros2_ws\install\Lib\site-packages;%PYTHONPATH% c:\python38\python.exe setup.py egg_info --egg-base ..\..\build\shoulder_mvmt build --build-base C:\SET-BETA-Spring2023\ros2_ws\build\shoulder_mvmt\build install --record C:\SET-BETA-Spring2023\ros2_ws\build\shoulder_mvmt\install.log --single-version-externally-managed[0m
+[5.460s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in 'C:\SET-BETA-Spring2023\ros2_ws\src\shoulder_mvmt' returned '0': PYTHONPATH=C:\SET-BETA-Spring2023\ros2_ws\build\shoulder_mvmt\prefix_override;C:\SET-BETA-Spring2023\ros2_ws\install\Lib\site-packages;%PYTHONPATH% c:\python38\python.exe setup.py egg_info --egg-base ..\..\build\shoulder_mvmt build --build-base C:\SET-BETA-Spring2023\ros2_ws\build\shoulder_mvmt\build install --record C:\SET-BETA-Spring2023\ros2_ws\build\shoulder_mvmt\install.log --single-version-externally-managed[0m
+[5.484s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\SET-BETA-Spring2023\ros2_ws\install' for CMake module files
+[5.486s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\SET-BETA-Spring2023\ros2_ws\install' for CMake config files
+[5.495s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('shoulder_mvmt', 'cmake_prefix_path')
+[5.501s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\SET-BETA-Spring2023\ros2_ws\install\share\shoulder_mvmt\hook\cmake_prefix_path.ps1'
+[5.503s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\SET-BETA-Spring2023\ros2_ws\install\share\shoulder_mvmt\hook\cmake_prefix_path.bat'
+[5.505s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\SET-BETA-Spring2023\ros2_ws\install\share\shoulder_mvmt\hook\cmake_prefix_path.dsv'
+[5.506s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\SET-BETA-Spring2023\ros2_ws\install\bin'
+[5.507s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('shoulder_mvmt', 'path_dll')
+[5.513s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\SET-BETA-Spring2023\ros2_ws\install\share\shoulder_mvmt\hook\path_dll.ps1'
+[5.515s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\SET-BETA-Spring2023\ros2_ws\install\share\shoulder_mvmt\hook\path_dll.bat'
+[5.516s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\SET-BETA-Spring2023\ros2_ws\install\share\shoulder_mvmt\hook\path_dll.dsv'
+[5.518s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\SET-BETA-Spring2023\ros2_ws\install\bin'
+[5.518s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('shoulder_mvmt', 'path')
+[5.524s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\SET-BETA-Spring2023\ros2_ws\install\share\shoulder_mvmt\hook\path.ps1'
+[5.526s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\SET-BETA-Spring2023\ros2_ws\install\share\shoulder_mvmt\hook\path.bat'
+[5.527s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\SET-BETA-Spring2023\ros2_ws\install\share\shoulder_mvmt\hook\path.dsv'
+[5.528s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\SET-BETA-Spring2023\ros2_ws\install\lib\pkgconfig\shoulder_mvmt.pc'
+[5.529s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\SET-BETA-Spring2023\ros2_ws\install\Lib\site-packages'
+[5.529s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('shoulder_mvmt', 'pythonpath')
+[5.535s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\SET-BETA-Spring2023\ros2_ws\install\share\shoulder_mvmt\hook\pythonpath.ps1'
+[5.537s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\SET-BETA-Spring2023\ros2_ws\install\share\shoulder_mvmt\hook\pythonpath.bat'
+[5.538s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\SET-BETA-Spring2023\ros2_ws\install\share\shoulder_mvmt\hook\pythonpath.dsv'
+[5.539s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\SET-BETA-Spring2023\ros2_ws\install\Scripts'
+[5.540s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(shoulder_mvmt)
+[5.546s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'C:\SET-BETA-Spring2023\ros2_ws\install\share\shoulder_mvmt\package.ps1'
+[5.548s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'C:\SET-BETA-Spring2023\ros2_ws\install\share\shoulder_mvmt\package.bat'
+[5.550s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor 'C:\SET-BETA-Spring2023\ros2_ws\install\share\shoulder_mvmt\package.dsv'
+[5.552s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(C:\SET-BETA-Spring2023\ros2_ws\install\share\colcon-core\packages\shoulder_mvmt)
+[5.568s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\SET-BETA-Spring2023\ros2_ws\install' for CMake module files
+[5.571s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\SET-BETA-Spring2023\ros2_ws\install' for CMake config files
+[5.579s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in 'C:\SET-BETA-Spring2023\ros2_ws\src\publisher' returned '0': PYTHONPATH=C:\SET-BETA-Spring2023\ros2_ws\build\publisher\prefix_override;C:\SET-BETA-Spring2023\ros2_ws\install\Lib\site-packages;%PYTHONPATH% c:\python38\python.exe setup.py egg_info --egg-base ..\..\build\publisher build --build-base C:\SET-BETA-Spring2023\ros2_ws\build\publisher\build install --record C:\SET-BETA-Spring2023\ros2_ws\build\publisher\install.log --single-version-externally-managed[0m
+[5.583s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('publisher', 'cmake_prefix_path')
+[5.589s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\SET-BETA-Spring2023\ros2_ws\install\share\publisher\hook\cmake_prefix_path.ps1'
+[5.591s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\SET-BETA-Spring2023\ros2_ws\install\share\publisher\hook\cmake_prefix_path.bat'
+[5.593s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\SET-BETA-Spring2023\ros2_ws\install\share\publisher\hook\cmake_prefix_path.dsv'
+[5.595s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\SET-BETA-Spring2023\ros2_ws\install\bin'
+[5.595s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('publisher', 'path_dll')
+[5.602s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\SET-BETA-Spring2023\ros2_ws\install\share\publisher\hook\path_dll.ps1'
+[5.603s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\SET-BETA-Spring2023\ros2_ws\install\share\publisher\hook\path_dll.bat'
+[5.605s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\SET-BETA-Spring2023\ros2_ws\install\share\publisher\hook\path_dll.dsv'
+[5.607s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\SET-BETA-Spring2023\ros2_ws\install\bin'
+[5.607s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('publisher', 'path')
+[5.615s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\SET-BETA-Spring2023\ros2_ws\install\share\publisher\hook\path.ps1'
+[5.616s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\SET-BETA-Spring2023\ros2_ws\install\share\publisher\hook\path.bat'
+[5.618s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\SET-BETA-Spring2023\ros2_ws\install\share\publisher\hook\path.dsv'
+[5.619s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\SET-BETA-Spring2023\ros2_ws\install\lib\pkgconfig\publisher.pc'
+[5.620s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\SET-BETA-Spring2023\ros2_ws\install\Lib\site-packages'
+[5.620s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('publisher', 'pythonpath')
+[5.627s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\SET-BETA-Spring2023\ros2_ws\install\share\publisher\hook\pythonpath.ps1'
+[5.629s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\SET-BETA-Spring2023\ros2_ws\install\share\publisher\hook\pythonpath.bat'
+[5.630s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\SET-BETA-Spring2023\ros2_ws\install\share\publisher\hook\pythonpath.dsv'
+[5.632s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\SET-BETA-Spring2023\ros2_ws\install\Scripts'
+[5.632s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(publisher)
+[5.639s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'C:\SET-BETA-Spring2023\ros2_ws\install\share\publisher\package.ps1'
+[5.641s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'C:\SET-BETA-Spring2023\ros2_ws\install\share\publisher\package.bat'
+[5.643s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor 'C:\SET-BETA-Spring2023\ros2_ws\install\share\publisher\package.dsv'
+[5.645s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(C:\SET-BETA-Spring2023\ros2_ws\install\share\colcon-core\packages\publisher)
+[5.646s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[5.646s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[5.664s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.notify2': 'notify2' not found
+[5.665s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.notify_send': Not used on non-Linux systems
+[5.665s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.665s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'win32'
+[10.750s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[10.760s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script 'C:\SET-BETA-Spring2023\ros2_ws\install\local_setup.ps1'
+[10.763s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module 'C:\SET-BETA-Spring2023\ros2_ws\install\_local_setup_util_ps1.py'
+[10.766s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script 'C:\SET-BETA-Spring2023\ros2_ws\install\setup.ps1'
+[10.776s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script 'C:\SET-BETA-Spring2023\ros2_ws\install\local_setup.bat'
+[10.778s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module 'C:\SET-BETA-Spring2023\ros2_ws\install\_local_setup_util_bat.py'
+[10.780s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script 'C:\SET-BETA-Spring2023\ros2_ws\install\setup.bat'

@@ -17,8 +17,7 @@ class ServoController(Node):
         
     def servo_angle_callback(self, msg):
         # send angle in form of string to the Arduino
-        if(self.ser.isOpen() == 1):
-            self.ser.write((msg.data).encode())
+        self.ser.write((msg.data).encode())
         self.get_logger().info('I heard: "%s"' % msg.data)
         
         

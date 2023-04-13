@@ -12,6 +12,8 @@ publisher/__init__.py
 publisher/publisher_function.py
 publisher/shoulder_servos.py
 publisher/subscriber.py
+publisher/wheel_drive.py
+publisher/wheel_movements.py
 resource/publisher
 test/test_copyright.py
 test/test_flake8.py

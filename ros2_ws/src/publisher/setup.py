@@ -22,6 +22,7 @@ setup(
         'console_scripts': [
                 'talker = publisher.publisher_function:main',
                 'listener = publisher.subscriber:main',
+                'wheels = publisher.wheel_drive:main',
                 'servos = publisher.shoulder_servos:main'
         ],
     },

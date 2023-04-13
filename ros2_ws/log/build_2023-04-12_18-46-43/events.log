@@ -1,0 +1,83 @@
+[0.000000] (-) TimerEvent: {}
+[0.000000] (publisher) JobQueued: {'identifier': 'publisher', 'dependencies': OrderedDict()}
+[0.000000] (shoulder_mvmt) JobQueued: {'identifier': 'shoulder_mvmt', 'dependencies': OrderedDict()}
+[0.000000] (publisher) JobStarted: {'identifier': 'publisher'}
+[0.094000] (-) TimerEvent: {}
+[0.140000] (shoulder_mvmt) JobStarted: {'identifier': 'shoulder_mvmt'}
+[0.203000] (-) TimerEvent: {}
+[0.328000] (-) TimerEvent: {}
+[0.437000] (-) TimerEvent: {}
+[0.547000] (-) TimerEvent: {}
+[0.656000] (-) TimerEvent: {}
+[0.765000] (-) TimerEvent: {}
+[0.875000] (-) TimerEvent: {}
+[0.984000] (-) TimerEvent: {}
+[1.094000] (-) TimerEvent: {}
+[1.203000] (-) TimerEvent: {}
+[1.328000] (-) TimerEvent: {}
+[1.437000] (-) TimerEvent: {}
+[1.547000] (-) TimerEvent: {}
+[1.656000] (-) TimerEvent: {}
+[1.765000] (-) TimerEvent: {}
+[1.875000] (-) TimerEvent: {}
+[1.984000] (-) TimerEvent: {}
+[2.047000] (shoulder_mvmt) Command: {'cmd': ['c:\\python38\\python.exe', 'setup.py', 'egg_info', '--egg-base', '..\\..\\build\\shoulder_mvmt', 'build', '--build-base', 'C:\\SET-BETA-Spring2023\\ros2_ws\\build\\shoulder_mvmt\\build', 'install', '--record', 'C:\\SET-BETA-Spring2023\\ros2_ws\\build\\shoulder_mvmt\\install.log', '--single-version-externally-managed'], 'cwd': 'C:\\SET-BETA-Spring2023\\ros2_ws\\src\\shoulder_mvmt', 'env': {'ALLUSERSPROFILE': 'C:\\ProgramData', 'AMENT_PREFIX_PATH': 'C:\\SET-BETA-Spring2023\\ros2_ws\\install;c:\\dev\\ros2\\ros2-windows', 'APPDATA': 'C:\\Users\\maxma\\AppData\\Roaming', 'ChocolateyInstall': 'C:\\ProgramData\\chocolatey', 'ChocolateyLastPathUpdate': '133219389049248558', 'CMAKE_PREFIX_PATH': 'C:\\SET-BETA-Spring2023\\ros2_ws\\install;c:\\dev\\ros2\\ros2-windows', 'COLCON': '1', 'COLCON_PREFIX_PATH': 'C:\\SET-BETA-Spring2023\\ros2_ws\\install\\;c:\\dev\\ros2\\ros2-windows\\', 'CommonProgramFiles': 'C:\\Program Files\\Common Files', 'CommonProgramFiles(x86)': 'C:\\Program Files (x86)\\Common Files', 'CommonProgramW6432': 'C:\\Program Files\\Common Files', 'COMPUTERNAME': 'DESKTOP-SVAIPN0', 'ComSpec': 'C:\\Windows\\system32\\cmd.exe', 'DriverData': 'C:\\Windows\\System32\\Drivers\\DriverData', 'FPS_BROWSER_APP_PROFILE_STRING': 'Internet Explorer', 'FPS_BROWSER_USER_PROFILE_STRING': 'Default', 'GOOGLE_APPLICATION_CREDENTIALS': 'C:\\source\\SwamphacksIX\\project_name\\authorization.json', 'HOMEDRIVE': 'C:', 'HOMEPATH': '\\Users\\maxma', 'LOCALAPPDATA': 'C:\\Users\\maxma\\AppData\\Local', 'LOGONSERVER': '\\\\DESKTOP-SVAIPN0', 'mingw': 'C:\\msys64\\mingw64\\bin\\msys64', 'NUMBER_OF_PROCESSORS': '16', 'OneDrive': 'C:\\Users\\maxma\\OneDrive', 'OpenCV_DIR': 'C:\\opencv', 'OPENSSL_CONF': 'C:\\Program Files\\OpenSSL-Win64\\bin\\openssl.cfg', 'OS': 'Windows_NT', 'Path': 'C:\\SET-BETA-Spring2023\\ros2_ws\\install\\bin;c:\\dev\\ros2\\ros2-windows\\opt\\yaml_cpp_vendor\\bin;c:\\dev\\ros2\\ros2-windows\\opt\\rviz_ogre_vendor\\bin;c:\\dev\\ros2\\ros2-windows\\opt\\rviz_assimp_vendor\\bin;c:\\dev\\ros2\\ros2-windows\\opt\\libcurl_vendor\\bin;c:\\dev\\ros2\\ros2-windows\\Scripts;c:\\dev\\ros2\\ros2-windows\\bin;C:\\Python38\\Scripts\\;C:\\Python38\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\msys64\\mingw64\\bin;C:\\Program Files\\dotnet\\;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Program Files\\nodejs\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\OpenSSL-Win64\\bin\\;C:\\Program Files\\CMake\\bin\\;C:\\Program Files\\Graphviz\\bin;C:\\Program Files\\PuTTY\\;C:\\Ruby32-x64\\bin;C:\\Users\\maxma\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\maxma\\AppData\\Local\\GitHubDesktop\\bin;C:\\intelFPGA_lite\\19.1\\modelsim_ase\\win32aloem;C:\\Users\\maxma\\AppData\\Roaming\\npm', 'PATHEXT': '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.RB;.RBW', 'PKG_CONFIG_PATH': 'c:\\dev\\ros2\\ros2-windows\\lib\\pkgconfig', 'PROCESSOR_ARCHITECTURE': 'AMD64', 'PROCESSOR_IDENTIFIER': 'AMD64 Family 23 Model 104 Stepping 1, AuthenticAMD', 'PROCESSOR_LEVEL': '23', 'PROCESSOR_REVISION': '6801', 'ProgramData': 'C:\\ProgramData', 'ProgramFiles': 'C:\\Program Files', 'ProgramFiles(x86)': 'C:\\Program Files (x86)', 'ProgramW6432': 'C:\\Program Files', 'PROMPT': '$P$G', 'PSModulePath': 'C:\\Users\\maxma\\Documents\\WindowsPowerShell\\Modules;C:\\Users\\maxma\\AppData\\Local\\Google\\Cloud SDK\\google-cloud-sdk\\platform\\PowerShell', 'PUBLIC': 'C:\\Users\\Public', 'PYTHONPATH': 'C:\\SET-BETA-Spring2023\\ros2_ws\\build\\shoulder_mvmt\\prefix_override;C:\\SET-BETA-Spring2023\\ros2_ws\\install\\Lib\\site-packages;C:\\SET-BETA-Spring2023\\ros2_ws\\install\\Lib\\site-packages;C:\\ci\\ws\\install\\lib\\python3.8\\dist-packages;c:\\dev\\ros2\\ros2-windows\\Lib\\site-packages', 'QSYS_ROOTDIR': 'C:\\intelFPGA_lite\\19.1\\quartus\\sopc_builder\\bin', 'Qt5_DIR': 'C:\\Qt\\Qt5.12.12\\5.12.12\\msvc2017_64', 'QT_QPA_PLATFORM_PLUGIN_PATH': 'C:\\Qt\\Qt5.12.12\\5.12.12\\msvc2017\\plugins\\platforms', 'QUARTUS_ROOTDIR': 'C:\\intelFPGA_lite\\19.1\\quartus', 'ROS_DISTRO': 'humble', 'ROS_LOCALHOST_ONLY': '0', 'ROS_PYTHON_VERSION': '3', 'ROS_VERSION': '2', 'SESSIONNAME': 'Console', 'SOPC_KIT_NIOS2': 'C:\\intelFPGA_lite\\19.1\\nios2eds', 'SystemDrive': 'C:', 'SystemRoot': 'C:\\Windows', 'TEMP': 'C:\\Users\\maxma\\AppData\\Local\\Temp', 'TMP': 'C:\\Users\\maxma\\AppData\\Local\\Temp', 'USERDOMAIN': 'DESKTOP-SVAIPN0', 'USERDOMAIN_ROAMINGPROFILE': 'DESKTOP-SVAIPN0', 'USERNAME': 'maxma', 'USERPROFILE': 'C:\\Users\\maxma', 'windir': 'C:\\Windows'}, 'shell': False}
+[2.062000] (publisher) Command: {'cmd': ['c:\\python38\\python.exe', 'setup.py', 'egg_info', '--egg-base', '..\\..\\build\\publisher', 'build', '--build-base', 'C:\\SET-BETA-Spring2023\\ros2_ws\\build\\publisher\\build', 'install', '--record', 'C:\\SET-BETA-Spring2023\\ros2_ws\\build\\publisher\\install.log', '--single-version-externally-managed'], 'cwd': 'C:\\SET-BETA-Spring2023\\ros2_ws\\src\\publisher', 'env': {'ALLUSERSPROFILE': 'C:\\ProgramData', 'AMENT_PREFIX_PATH': 'C:\\SET-BETA-Spring2023\\ros2_ws\\install;c:\\dev\\ros2\\ros2-windows', 'APPDATA': 'C:\\Users\\maxma\\AppData\\Roaming', 'ChocolateyInstall': 'C:\\ProgramData\\chocolatey', 'ChocolateyLastPathUpdate': '133219389049248558', 'CMAKE_PREFIX_PATH': 'C:\\SET-BETA-Spring2023\\ros2_ws\\install;c:\\dev\\ros2\\ros2-windows', 'COLCON': '1', 'COLCON_PREFIX_PATH': 'C:\\SET-BETA-Spring2023\\ros2_ws\\install\\;c:\\dev\\ros2\\ros2-windows\\', 'CommonProgramFiles': 'C:\\Program Files\\Common Files', 'CommonProgramFiles(x86)': 'C:\\Program Files (x86)\\Common Files', 'CommonProgramW6432': 'C:\\Program Files\\Common Files', 'COMPUTERNAME': 'DESKTOP-SVAIPN0', 'ComSpec': 'C:\\Windows\\system32\\cmd.exe', 'DriverData': 'C:\\Windows\\System32\\Drivers\\DriverData', 'FPS_BROWSER_APP_PROFILE_STRING': 'Internet Explorer', 'FPS_BROWSER_USER_PROFILE_STRING': 'Default', 'GOOGLE_APPLICATION_CREDENTIALS': 'C:\\source\\SwamphacksIX\\project_name\\authorization.json', 'HOMEDRIVE': 'C:', 'HOMEPATH': '\\Users\\maxma', 'LOCALAPPDATA': 'C:\\Users\\maxma\\AppData\\Local', 'LOGONSERVER': '\\\\DESKTOP-SVAIPN0', 'mingw': 'C:\\msys64\\mingw64\\bin\\msys64', 'NUMBER_OF_PROCESSORS': '16', 'OneDrive': 'C:\\Users\\maxma\\OneDrive', 'OpenCV_DIR': 'C:\\opencv', 'OPENSSL_CONF': 'C:\\Program Files\\OpenSSL-Win64\\bin\\openssl.cfg', 'OS': 'Windows_NT', 'Path': 'C:\\SET-BETA-Spring2023\\ros2_ws\\install\\bin;c:\\dev\\ros2\\ros2-windows\\opt\\yaml_cpp_vendor\\bin;c:\\dev\\ros2\\ros2-windows\\opt\\rviz_ogre_vendor\\bin;c:\\dev\\ros2\\ros2-windows\\opt\\rviz_assimp_vendor\\bin;c:\\dev\\ros2\\ros2-windows\\opt\\libcurl_vendor\\bin;c:\\dev\\ros2\\ros2-windows\\Scripts;c:\\dev\\ros2\\ros2-windows\\bin;C:\\Python38\\Scripts\\;C:\\Python38\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\msys64\\mingw64\\bin;C:\\Program Files\\dotnet\\;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Program Files\\nodejs\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\OpenSSL-Win64\\bin\\;C:\\Program Files\\CMake\\bin\\;C:\\Program Files\\Graphviz\\bin;C:\\Program Files\\PuTTY\\;C:\\Ruby32-x64\\bin;C:\\Users\\maxma\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\maxma\\AppData\\Local\\GitHubDesktop\\bin;C:\\intelFPGA_lite\\19.1\\modelsim_ase\\win32aloem;C:\\Users\\maxma\\AppData\\Roaming\\npm', 'PATHEXT': '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.RB;.RBW', 'PKG_CONFIG_PATH': 'c:\\dev\\ros2\\ros2-windows\\lib\\pkgconfig', 'PROCESSOR_ARCHITECTURE': 'AMD64', 'PROCESSOR_IDENTIFIER': 'AMD64 Family 23 Model 104 Stepping 1, AuthenticAMD', 'PROCESSOR_LEVEL': '23', 'PROCESSOR_REVISION': '6801', 'ProgramData': 'C:\\ProgramData', 'ProgramFiles': 'C:\\Program Files', 'ProgramFiles(x86)': 'C:\\Program Files (x86)', 'ProgramW6432': 'C:\\Program Files', 'PROMPT': '$P$G', 'PSModulePath': 'C:\\Users\\maxma\\Documents\\WindowsPowerShell\\Modules;C:\\Users\\maxma\\AppData\\Local\\Google\\Cloud SDK\\google-cloud-sdk\\platform\\PowerShell', 'PUBLIC': 'C:\\Users\\Public', 'PYTHONPATH': 'C:\\SET-BETA-Spring2023\\ros2_ws\\build\\publisher\\prefix_override;C:\\SET-BETA-Spring2023\\ros2_ws\\install\\Lib\\site-packages;C:\\SET-BETA-Spring2023\\ros2_ws\\install\\Lib\\site-packages;C:\\ci\\ws\\install\\lib\\python3.8\\dist-packages;c:\\dev\\ros2\\ros2-windows\\Lib\\site-packages', 'QSYS_ROOTDIR': 'C:\\intelFPGA_lite\\19.1\\quartus\\sopc_builder\\bin', 'Qt5_DIR': 'C:\\Qt\\Qt5.12.12\\5.12.12\\msvc2017_64', 'QT_QPA_PLATFORM_PLUGIN_PATH': 'C:\\Qt\\Qt5.12.12\\5.12.12\\msvc2017\\plugins\\platforms', 'QUARTUS_ROOTDIR': 'C:\\intelFPGA_lite\\19.1\\quartus', 'ROS_DISTRO': 'humble', 'ROS_LOCALHOST_ONLY': '0', 'ROS_PYTHON_VERSION': '3', 'ROS_VERSION': '2', 'SESSIONNAME': 'Console', 'SOPC_KIT_NIOS2': 'C:\\intelFPGA_lite\\19.1\\nios2eds', 'SystemDrive': 'C:', 'SystemRoot': 'C:\\Windows', 'TEMP': 'C:\\Users\\maxma\\AppData\\Local\\Temp', 'TMP': 'C:\\Users\\maxma\\AppData\\Local\\Temp', 'USERDOMAIN': 'DESKTOP-SVAIPN0', 'USERDOMAIN_ROAMINGPROFILE': 'DESKTOP-SVAIPN0', 'USERNAME': 'maxma', 'USERPROFILE': 'C:\\Users\\maxma', 'windir': 'C:\\Windows'}, 'shell': False}
+[2.094000] (-) TimerEvent: {}
+[2.219000] (-) TimerEvent: {}
+[2.328000] (-) TimerEvent: {}
+[2.437000] (-) TimerEvent: {}
+[2.515000] (shoulder_mvmt) StdoutLine: {'line': b'running egg_info\r\n'}
+[2.515000] (shoulder_mvmt) StdoutLine: {'line': b'writing ..\\..\\build\\shoulder_mvmt\\shoulder_mvmt.egg-info\\PKG-INFO\r\n'}
+[2.515000] (shoulder_mvmt) StdoutLine: {'line': b'writing dependency_links to ..\\..\\build\\shoulder_mvmt\\shoulder_mvmt.egg-info\\dependency_links.txt\r\n'}
+[2.531000] (shoulder_mvmt) StdoutLine: {'line': b'writing entry points to ..\\..\\build\\shoulder_mvmt\\shoulder_mvmt.egg-info\\entry_points.txt\r\n'}
+[2.531000] (publisher) StdoutLine: {'line': b'running egg_info\r\n'}
+[2.531000] (shoulder_mvmt) StdoutLine: {'line': b'writing requirements to ..\\..\\build\\shoulder_mvmt\\shoulder_mvmt.egg-info\\requires.txt\r\n'}
+[2.531000] (shoulder_mvmt) StdoutLine: {'line': b'writing top-level names to ..\\..\\build\\shoulder_mvmt\\shoulder_mvmt.egg-info\\top_level.txt\r\n'}
+[2.531000] (publisher) StdoutLine: {'line': b'writing ..\\..\\build\\publisher\\publisher.egg-info\\PKG-INFO\r\n'}
+[2.531000] (publisher) StdoutLine: {'line': b'writing dependency_links to ..\\..\\build\\publisher\\publisher.egg-info\\dependency_links.txt\r\n'}
+[2.531000] (publisher) StdoutLine: {'line': b'writing entry points to ..\\..\\build\\publisher\\publisher.egg-info\\entry_points.txt\r\n'}
+[2.531000] (publisher) StdoutLine: {'line': b'writing requirements to ..\\..\\build\\publisher\\publisher.egg-info\\requires.txt\r\n'}
+[2.531000] (publisher) StdoutLine: {'line': b'writing top-level names to ..\\..\\build\\publisher\\publisher.egg-info\\top_level.txt\r\n'}
+[2.547000] (-) TimerEvent: {}
+[2.562000] (shoulder_mvmt) StdoutLine: {'line': b"reading manifest file '..\\..\\build\\shoulder_mvmt\\shoulder_mvmt.egg-info\\SOURCES.txt'\r\n"}
+[2.562000] (shoulder_mvmt) StdoutLine: {'line': b"writing manifest file '..\\..\\build\\shoulder_mvmt\\shoulder_mvmt.egg-info\\SOURCES.txt'\r\n"}
+[2.562000] (publisher) StdoutLine: {'line': b"reading manifest file '..\\..\\build\\publisher\\publisher.egg-info\\SOURCES.txt'\r\n"}
+[2.562000] (shoulder_mvmt) StdoutLine: {'line': b'running build\r\n'}
+[2.562000] (shoulder_mvmt) StdoutLine: {'line': b'running build_py\r\n'}
+[2.562000] (shoulder_mvmt) StdoutLine: {'line': b'running install\r\n'}
+[2.562000] (shoulder_mvmt) StdoutLine: {'line': b'running install_lib\r\n'}
+[2.562000] (publisher) StdoutLine: {'line': b"writing manifest file '..\\..\\build\\publisher\\publisher.egg-info\\SOURCES.txt'\r\n"}
+[2.562000] (publisher) StdoutLine: {'line': b'running build\r\n'}
+[2.562000] (publisher) StdoutLine: {'line': b'running build_py\r\n'}
+[2.562000] (publisher) StdoutLine: {'line': b'running install\r\n'}
+[2.562000] (shoulder_mvmt) StdoutLine: {'line': b'running install_data\r\n'}
+[2.562000] (publisher) StdoutLine: {'line': b'running install_lib\r\n'}
+[2.562000] (shoulder_mvmt) StdoutLine: {'line': b'running install_egg_info\r\n'}
+[2.578000] (publisher) StdoutLine: {'line': b'running install_data\r\n'}
+[2.578000] (publisher) StdoutLine: {'line': b'running install_egg_info\r\n'}
+[2.578000] (shoulder_mvmt) StdoutLine: {'line': b"removing 'C:\\SET-BETA-Spring2023\\ros2_ws\\install\\Lib\\site-packages\\shoulder_mvmt-0.0.0-py3.8.egg-info' (and everything under it)\r\n"}
+[2.578000] (shoulder_mvmt) StdoutLine: {'line': b'Copying ..\\..\\build\\shoulder_mvmt\\shoulder_mvmt.egg-info to C:\\SET-BETA-Spring2023\\ros2_ws\\install\\Lib\\site-packages\\shoulder_mvmt-0.0.0-py3.8.egg-info\r\n'}
+[2.578000] (publisher) StdoutLine: {'line': b"removing 'C:\\SET-BETA-Spring2023\\ros2_ws\\install\\Lib\\site-packages\\publisher-0.0.0-py3.8.egg-info' (and everything under it)\r\n"}
+[2.578000] (publisher) StdoutLine: {'line': b'Copying ..\\..\\build\\publisher\\publisher.egg-info to C:\\SET-BETA-Spring2023\\ros2_ws\\install\\Lib\\site-packages\\publisher-0.0.0-py3.8.egg-info\r\n'}
+[2.594000] (shoulder_mvmt) StdoutLine: {'line': b'running install_scripts\r\n'}
+[2.609000] (publisher) StdoutLine: {'line': b'running install_scripts\r\n'}
+[2.640000] (shoulder_mvmt) StdoutLine: {'line': b'Installing shoulder_servos-script.py script to C:\\SET-BETA-Spring2023\\ros2_ws\\install\\lib\\shoulder_mvmt\r\n'}
+[2.640000] (shoulder_mvmt) StdoutLine: {'line': b'Installing shoulder_servos.exe script to C:\\SET-BETA-Spring2023\\ros2_ws\\install\\lib\\shoulder_mvmt\r\n'}
+[2.640000] (shoulder_mvmt) StdoutLine: {'line': b"writing list of installed files to 'C:\\SET-BETA-Spring2023\\ros2_ws\\build\\shoulder_mvmt\\install.log'\r\n"}
+[2.640000] (publisher) StdoutLine: {'line': b'Installing listener-script.py script to C:\\SET-BETA-Spring2023\\ros2_ws\\install\\lib\\publisher\r\n'}
+[2.640000] (publisher) StdoutLine: {'line': b'Installing listener.exe script to C:\\SET-BETA-Spring2023\\ros2_ws\\install\\lib\\publisher\r\n'}
+[2.640000] (publisher) StdoutLine: {'line': b'Installing servos-script.py script to C:\\SET-BETA-Spring2023\\ros2_ws\\install\\lib\\publisher\r\n'}
+[2.640000] (publisher) StdoutLine: {'line': b'Installing servos.exe script to C:\\SET-BETA-Spring2023\\ros2_ws\\install\\lib\\publisher\r\n'}
+[2.640000] (publisher) StdoutLine: {'line': b'Installing talker-script.py script to C:\\SET-BETA-Spring2023\\ros2_ws\\install\\lib\\publisher\r\n'}
+[2.640000] (publisher) StdoutLine: {'line': b'Installing talker.exe script to C:\\SET-BETA-Spring2023\\ros2_ws\\install\\lib\\publisher\r\n'}
+[2.640000] (publisher) StdoutLine: {'line': b'Installing wheels-script.py script to C:\\SET-BETA-Spring2023\\ros2_ws\\install\\lib\\publisher\r\n'}
+[2.640000] (publisher) StdoutLine: {'line': b'Installing wheels.exe script to C:\\SET-BETA-Spring2023\\ros2_ws\\install\\lib\\publisher\r\n'}
+[2.656000] (publisher) StdoutLine: {'line': b"writing list of installed files to 'C:\\SET-BETA-Spring2023\\ros2_ws\\build\\publisher\\install.log'\r\n"}
+[2.656000] (-) TimerEvent: {}
+[2.672000] (shoulder_mvmt) CommandEnded: {'returncode': 0}
+[2.750000] (shoulder_mvmt) JobEnded: {'identifier': 'shoulder_mvmt', 'rc': 0}
+[2.765000] (-) TimerEvent: {}
+[2.765000] (publisher) CommandEnded: {'returncode': 0}
+[2.828000] (publisher) JobEnded: {'identifier': 'publisher', 'rc': 0}
+[2.828000] (-) EventReactorShutdown: {}
