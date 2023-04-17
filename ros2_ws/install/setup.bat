@@ -8,7 +8,6 @@
 :: source chained prefixes
 call:_colcon_prefix_chain_bat_call_script "c:\dev\ros2\ros2-windows\local_setup.bat"
 call:_colcon_prefix_chain_bat_call_script "c:\dev\ros2\ros2-windows\\local_setup.bat"
-call:_colcon_prefix_chain_bat_call_script "C:\SET-BETA-Spring2023\ros2_ws\install\\local_setup.bat"
 
 :: source this prefix
 call:_colcon_prefix_chain_bat_call_script "%%~dp0local_setup.bat"

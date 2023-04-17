@@ -2,6 +2,7 @@ import rclpy
 from rclpy.node import Node
 
 from std_msgs.msg import String
+import readchar
 
 
 class MinimalPublisher(Node):
@@ -9,17 +10,19 @@ class MinimalPublisher(Node):
     def __init__(self):
         super().__init__('minimal_publisher')
         self.publisher_ = self.create_publisher(String, 'topic', 10)
-        timer_period = 4  # seconds
-        self.timer = self.create_timer(timer_period, self.timer_callback)
-        self.i = 0
+        #timer_period = 2  # seconds
+        self.timer = self.create_timer(1.0, self.timer_callback)
+        #self.i = 0
 
     def timer_callback(self):
-        motions = ['w', 's']
+        #motions = ['w', 's']
         msg = String()
-        msg.data = motions[self.i % 2]
+        msg.data = readchar.readchar()
+        #name = input("enter")
+        #msg.data = "works"
         self.publisher_.publish(msg)
-        self.get_logger().info('Publishing: "%s"' % msg.data)
-        self.i += 1
+        self.get_logger().info('Publishing: "%s"' % msg)
+        #self.i += 1
 
 
 def main(args=None):

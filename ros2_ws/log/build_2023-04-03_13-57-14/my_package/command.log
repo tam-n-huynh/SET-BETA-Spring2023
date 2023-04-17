@@ -1,2 +1,0 @@
-Invoking command in 'C:\dev\ros2_ws\build\my_package': C:\Python38\Scripts\cmake.EXE C:\dev\ros2_ws\src\my_package -DCMAKE_INSTALL_PREFIX=C:\dev\ros2_ws\install
-Invoked command in 'C:\dev\ros2_ws\build\my_package' returned '1': C:\Python38\Scripts\cmake.EXE C:\dev\ros2_ws\src\my_package -DCMAKE_INSTALL_PREFIX=C:\dev\ros2_ws\install

@@ -14,7 +14,6 @@ class wheel_drive(Node):
     
 
     def servo_angle_callback(self, msg):
-        # send angle in form of string to the Arduino
 
         kit = MotorKit()
 
@@ -39,10 +38,6 @@ class wheel_drive(Node):
             kit.motor1.throttle = 0;
             kit.motor2.throttle = 0;
             kit.motor3.throttle = 0;
-        elif msg.data == 'a':
-            robot.left
-        elif msg.data == 'd':
-            robot.right
         
         
 def main(args=None):

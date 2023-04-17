@@ -1,6 +1,0 @@
-Invoking command in 'C:\dev\ros2_ws\build\new_package': C:\Python38\Scripts\cmake.EXE C:\dev\ros2_ws\src\new_package -DCMAKE_INSTALL_PREFIX=C:\dev\ros2_ws\install -G Visual Studio 17 2022
-Invoked command in 'C:\dev\ros2_ws\build\new_package' returned '0': C:\Python38\Scripts\cmake.EXE C:\dev\ros2_ws\src\new_package -DCMAKE_INSTALL_PREFIX=C:\dev\ros2_ws\install -G Visual Studio 17 2022
-Invoking command in 'C:\dev\ros2_ws\build\new_package': CL=/MP C:\Python38\Scripts\cmake.EXE --build C:\dev\ros2_ws\build\new_package --config Release
-Invoked command in 'C:\dev\ros2_ws\build\new_package' returned '0': CL=/MP C:\Python38\Scripts\cmake.EXE --build C:\dev\ros2_ws\build\new_package --config Release
-Invoking command in 'C:\dev\ros2_ws\build\new_package': C:\Python38\Scripts\cmake.EXE --install C:\dev\ros2_ws\build\new_package --config Release
-Invoked command in 'C:\dev\ros2_ws\build\new_package' returned '0': C:\Python38\Scripts\cmake.EXE --install C:\dev\ros2_ws\build\new_package --config Release

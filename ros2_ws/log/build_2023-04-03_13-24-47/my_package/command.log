@@ -1,2 +1,0 @@
-Invoking command in 'C:\dev\ros2_ws\build\my_package': C:\Program Files\CMake\bin\cmake.EXE C:\dev\ros2_ws\src\my_package -DCMAKE_INSTALL_PREFIX=C:\dev\ros2_ws\install -G Visual Studio 17 2022
-Invoked command in 'C:\dev\ros2_ws\build\my_package' returned '1': C:\Program Files\CMake\bin\cmake.EXE C:\dev\ros2_ws\src\my_package -DCMAKE_INSTALL_PREFIX=C:\dev\ros2_ws\install -G Visual Studio 17 2022
