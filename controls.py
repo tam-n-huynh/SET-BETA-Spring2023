@@ -32,7 +32,12 @@ class Robot:
         r = (velocity * math.cos(angle / 180. * math.pi), velocity * math.sin(angle / 180. * math.pi))
 
         for motor, d in zip(self.motors[1:], self.di[1:]):
+            print((d[0] * r[0] + d[1] * r[1]))
             MotorFunctions.motor_run_signed(motor=motor, velocity=(d[0] * r[0] + d[1] * r[1]))
+
+    def rotate(self, angle: int) -> None:
+        for motor in self.motors[1:]:
+            MotorFunctions.motor_run_signed(motor=motor, velocity=1)
 
     def stop(self) -> None:
         for motor in self.motors[1:]:
