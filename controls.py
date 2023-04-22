@@ -35,9 +35,11 @@ class Robot:
             print((d[0] * r[0] + d[1] * r[1]))
             MotorFunctions.motor_run_signed(motor=motor, velocity=(d[0] * r[0] + d[1] * r[1]))
 
-    def rotate(self, angle: int) -> None:
+    def rotate(self, velocity: float) -> None:
+        if not -1 <= velocity <= 1:
+            print("Invalid velocity for rotation")
         for motor in self.motors[1:]:
-            MotorFunctions.motor_run_signed(motor=motor, velocity=1)
+            MotorFunctions.motor_run_signed(motor=motor, velocity=velocity)
 
     def stop(self) -> None:
         for motor in self.motors[1:]:
