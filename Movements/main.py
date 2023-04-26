@@ -61,13 +61,13 @@ def main(args=None):
 			bot.move(180, 1)
 			time.sleep(1)
 			bot.stop()
-		elif op == '.':
-			bot.rotate(1)
-			time.sleep(1)
-			bot.stop()
 		elif op == ',':
+			bot.rotate(1)
+			time.sleep(0.25)
+			bot.stop()
+		elif op == '.':
 			bot.rotate(0)
-			time.sleep(1)
+			time.sleep(0.25)
 			bot.stop()
 
 main()
