@@ -47,9 +47,12 @@ class Robot:
             print((d[0] * r[0] + d[1] * r[1]))
             MotorFunctions.motor_run_signed(motor=motor, velocity=(d[0] * r[0] + d[1] * r[1]))
     
-    def rotate(self) -> None:
+    def rotate(self, dir : int) -> None:
+        v = 0.5
+        if (dir == 1):
+            v *= -1
         for motor in self.motors[1:]:
-            MotorFunctions.motor_run_signed(motor=motor, velocity=0.5)
+                MotorFunctions.motor_run_signed(motor=motor, velocity=v)
 
     def stop(self) -> None:
         for motor in self.motors[1:]:
