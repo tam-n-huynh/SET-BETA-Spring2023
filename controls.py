@@ -1,4 +1,4 @@
-from MotorControls.MotorControls import Motor, MotorFunctions, Direction
+from Movements.MotorControls.MotorControls import Motor, MotorFunctions
 
 import math
 
