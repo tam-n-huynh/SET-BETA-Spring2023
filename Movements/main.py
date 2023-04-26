@@ -54,9 +54,13 @@ def main(args=None):
 			bot.stop()
 
 		elif op == 'p':
-			griddy(bot)
+			armAng = armAng-5
+			armAng = armAng % 181
+			bot.arms(armAng)
 		elif op =='o':
-			bot.arms(90)
+			armAng = 5+armAng
+			armAng = armAng % 181
+			bot.arms(armAng)
 		elif op == 's':
 			bot.move(180, 1)
 			time.sleep(1)
@@ -69,5 +73,7 @@ def main(args=None):
 			bot.rotate(0)
 			time.sleep(0.25)
 			bot.stop()
+		elif op = '`':
+			break;
 
 main()
