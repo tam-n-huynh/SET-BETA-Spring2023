@@ -36,17 +36,26 @@ class AudioQueue:
         #         cls._initialized = False
         # return cls._instance
 
-    def read(self):
+    def read(self, chunk):
         print(self.audio_queue.qsize())
         if self.audio_queue.empty():
             return
+
         return self.audio_queue.queue[0]
 
 
 class RemoteAudioSource(sr.AudioSource):
-    def __init__(self, sample_rate=16000):
+    def __init__(self, device_index=None, sample_rate=16000, chunk_size=1024):
+        assert device_index is None or isinstance(device_index, int), "Device index must be None or an integer"
+        assert sample_rate is None or (
+                    isinstance(sample_rate, int) and sample_rate > 0), "Sample rate must be None or a positive integer"
+        assert isinstance(chunk_size, int) and chunk_size > 0, "Chunk size must be a positive integer"
+
         self.sample_rate = sample_rate
-        self.stream = AudioQueue()
+        self.chunk_size = chunk_size
+
+        self.stream = None
+        self.audio = None
 
         self.server = socketserver.TCPServer((HOST, PORT), TCPHandler)
 
@@ -58,10 +67,14 @@ class RemoteAudioSource(sr.AudioSource):
         thread.start()
 
     def __enter__(self):
+        assert self.stream is None, "This audio source is already in a context manager"
+
+        self.stream = AudioQueue()
+
         return self
 
     def __exit__(self, exc_type, exc_value, traceback):
-        pass
+        self.stream = None
 
 
 class TCPHandler(socketserver.BaseRequestHandler):
@@ -71,14 +84,11 @@ class TCPHandler(socketserver.BaseRequestHandler):
             if not self.data:
                 return
 
-            lock = threading.Lock()
-            with lock:
-                aq = AudioQueue().audio_queue
-                aq.put(self.data)
+            aq = AudioQueue().audio_queue
+            aq.put(self.data)
 
 
-ras = RemoteAudioSource()
-
-while True:
-    data = ras.stream.read()
-    print(data)
+with RemoteAudioSource() as source:
+    while True:
+        data = source.stream.read(1024)
+        print(data)
