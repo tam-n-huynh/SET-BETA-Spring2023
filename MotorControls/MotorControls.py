@@ -41,7 +41,7 @@ class MotorFunctions:
     def motor_run_signed(motor: Motor, velocity: float) -> None:
         if math.fabs(velocity) > 1:
             return
-        MotorFunctions.motor_run(motor, Direction(int(velocity < 0)), int(math.fabs(velocity)) * 100)
+        MotorFunctions.motor_run(motor, Direction(int(velocity < 0)), int(math.fabs(velocity) * 100))
 
     @staticmethod
     def motor_stop(motor: Motor) -> None:
