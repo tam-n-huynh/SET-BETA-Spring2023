@@ -25,15 +25,15 @@ def main(args=None):
 			time.sleep(sleep)
 			bot.stop()
 		elif op == 'e':
-			bot.move(45, 1)
+			bot.move(-45, 1)
 			time.sleep(sleep)
 			bot.stop()
 		elif op == 'd':
-			bot.move(90, 1)
+			bot.move(-90, 1)
 			time.sleep(sleep)
 			bot.stop()
 		elif op == 'c':
-			bot.move(135, 1)
+			bot.move(-135, 1)
 			time.sleep(sleep)
 			bot.stop()
 		elif op == 'x':
@@ -41,15 +41,15 @@ def main(args=None):
 			time.sleep(sleep)
 			bot.stop()
 		elif op == 'z':
-			bot.move(-135, 1)
+			bot.move(135, 1)
 			time.sleep(sleep)
 			bot.stop()
 		elif op == 'a':
-			bot.move(-90, 1)
+			bot.move(90, 1)
 			time.sleep(sleep)
 			bot.stop()
 		elif op == 'q':
-			bot.move(90, 1)
+			bot.move(45, 1)
 			time.sleep(sleep)
 			bot.stop()
 
