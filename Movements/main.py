@@ -26,7 +26,7 @@ def main(args=None):
 		os.environ.__setitem__('Display', ':0.0')
 	face = Display()
 	bot = Robot()
-	tk_thread = threading.Thread(target=face.show, args=(0,))
+	tk_thread = threading.Thread(target=face.show, args=(0))
 	tk_thread.start()
 
 	sleep = .5
@@ -35,7 +35,7 @@ def main(args=None):
 			print("helo")
 			op = readchar.readchar()
 			if op == 'f':
-				tk_thread = threading.Thread(target=face.show, args=(1,))
+				tk_thread = threading.Thread(target=face.show, args=(1))
 				tk_thread.start()
 			elif op == 'w':
 				bot.move(0, 1)
