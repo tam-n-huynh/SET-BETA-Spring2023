@@ -4,6 +4,7 @@ import time
 from screen import Display
 import threading
 import tkinter as tk
+import os
 
 
 def griddy(bot : Robot()):
@@ -19,6 +20,11 @@ def griddy(bot : Robot()):
 	bot.stop()
 
 def main(args=None):
+
+	if os.environ.get('DISPLAY','') == '':
+		print('no display found. Using :0.0')
+		os.environ.__setitem__('Display', ':0.0')
+
 	face = Display()
 	bot = Robot()
 	tk_thread = threading.Thread(target=face.show(0))
