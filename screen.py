@@ -1,7 +1,6 @@
 from tkinter import *
-import time
 import os
-from PIL import Image, ImageTk, ImageSequence
+from PIL import Image, ImageTk
 
 class Display():
     def __init__(self): 
@@ -11,11 +10,11 @@ class Display():
 
         # Create Tk object
         self.root = Tk()
-        #self.root.attributes("-fullscreen", True)
+        self.root.attributes("-fullscreen", False)
 
         # Create canvas and pack it into the root window
         self.canvas = Canvas(self.root)
-        self.canvas.pack(fill=BOTH, expand=YES)
+        #self.canvas.pack(fill=BOTH, expand=YES)
 
         # Initialize variables
         self.curr_image_index = 0
@@ -28,15 +27,11 @@ class Display():
         image = Image.open(image_path)
         #image = image.resize((self.root.winfo_screenwidth(), self.root.winfo_screenheight()), Image.ANTIALIAS)
 
-        for frame in ImageSequence.Iterator(image):
-            # Create PhotoImage object using the Tk object
-            photo = ImageTk.PhotoImage(frame, master=self.root)
+        # Create PhotoImage object using the Tk object
+        photo = ImageTk.PhotoImage(image, master=self.root)
 
-            # Display image on canvas
-            self.canvas.delete("all")
-            self.canvas.create_image(0, 0, anchor=NW, image=photo)
-            self.canvas.update()
-
-            time.sleep(0.1)
-
+        # Display image on canvas
+        self.canvas.delete("all")
+        self.canvas.create_image(0, 0, anchor=NW, image=photo)
+        self.canvas.update()
 

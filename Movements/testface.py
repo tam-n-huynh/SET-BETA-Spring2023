@@ -1,10 +1,16 @@
 from screen import Display
-import time
+import readchar
 
-def main():
-    face = Display()
-    for i in range(15):
-        face.show(i)
-        time.sleep(2)
+def main(args=None):
+	face = Display()
+	face.show(1)
+	while (True): 
+		op = readchar.readchar()
+		if op == 'w':
+			face.show(0)
+		elif op == 'e':
+			face.show(1)
+		elif op == '`':
+			break;
 
 main()

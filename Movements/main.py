@@ -2,6 +2,8 @@ from controls import Robot
 import readchar
 import time
 from screen import Display
+import threading
+import tkinter as tk
 
 
 def griddy(bot : Robot()):
@@ -19,13 +21,16 @@ def griddy(bot : Robot()):
 def main(args=None):
 	face = Display()
 	bot = Robot()
-	sleep = 0.5
+	tk_thread = threading.Thread(target=face.show(0))
+	tk_thread.start()
+
 	while (True): 
 		face.show(1)
 		print("helo")
 		op = readchar.readchar()
 		if op == 'w':
-			face.show(0)
+			tk_thread = threading.Thread(target=face.show(1))
+			tk_thread.start()
 			bot.move(0, 1)
 			time.sleep(sleep)
 			bot.stop()
