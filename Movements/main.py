@@ -24,19 +24,19 @@ def main(args=None):
 	if os.environ.get('DISPLAY','') == '':
 		print('no display found. Using :0.0')
 		os.environ.__setitem__('Display', ':0.0')
-
 	face = Display()
 	bot = Robot()
-	tk_thread = threading.Thread(target=face.show(0))
+	tk_thread = threading.Thread(target=face.show, args=(0,))
 	tk_thread.start()
 
 	while (True): 
 		face.show(1)
 		print("helo")
 		op = readchar.readchar()
-		if op == 'w':
-			tk_thread = threading.Thread(target=face.show(1))
+		if op == 'f':
+			tk_thread = threading.Thread(target=face.show, args=(1,))
 			tk_thread.start()
+		elif op == 'w':
 			bot.move(0, 1)
 			time.sleep(sleep)
 			bot.stop()
