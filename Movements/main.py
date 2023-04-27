@@ -73,7 +73,7 @@ def main(args=None):
 			bot.rotate(0)
 			time.sleep(0.25)
 			bot.stop()
-		elif op = '`':
+		elif op == '`':
 			break;
 
 main()
