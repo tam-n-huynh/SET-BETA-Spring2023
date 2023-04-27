@@ -29,8 +29,9 @@ def main(args=None):
 	tk_thread = threading.Thread(target=face.show, args=(0,))
 	tk_thread.start()
 
+	sleep = .5
+
 	while (True): 
-		face.show(1)
 		print("helo")
 		op = readchar.readchar()
 		if op == 'f':
@@ -38,7 +39,7 @@ def main(args=None):
 			tk_thread.start()
 		elif op == 'w':
 			bot.move(0, 1)
-			time.sleep(sleep)
+			time.sleep(0.5)
 			bot.stop()
 		elif op == 'e':
 			bot.move(-45, 1)
