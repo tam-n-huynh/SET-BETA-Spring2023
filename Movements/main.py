@@ -1,8 +1,7 @@
 from controls import Robot
 import readchar
 import time
-import pygame.joystick
-
+from screen import Display
 
 
 def griddy(bot : Robot()):
@@ -18,13 +17,15 @@ def griddy(bot : Robot()):
 	bot.stop()
 
 def main(args=None):
-
+	face = Display()
 	bot = Robot()
 	sleep = 0.5
 	while (True): 
+		face.show(1)
 		print("helo")
 		op = readchar.readchar()
 		if op == 'w':
+			face.show(0)
 			bot.move(0, 1)
 			time.sleep(sleep)
 			bot.stop()

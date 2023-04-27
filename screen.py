@@ -1,35 +1,37 @@
-from PIL import Image
+from tkinter import *
 import os
-import time
+from PIL import Image, ImageTk
 
-# Define image filenames and paths
-IMAGE_PATHS = ['image1.jpg', 'image2.jpg']
-IMAGE_DIR = ''
+class Display():
+    def __init__(self): 
+        # Define image filenames and paths
+        self.IMAGE_PATHS = ['cute.gif', 'blink.gif']
+        self.IMAGE_DIR = ''
 
-# Define function to toggle between images
-def toggle_image(curr_image_index):
-    curr_image_index += 1
-    if curr_image_index >= len(IMAGE_PATHS):
-        curr_image_index = 0
-    return curr_image_index
+        # Create Tk object
+        self.root = Tk()
+        self.root.attributes("-fullscreen", True)
 
-# Initialize variables
-curr_image_index = 0
-delay_time = 1  # seconds
+        # Create canvas and pack it into the root window
+        self.canvas = Canvas(self.root)
+        self.canvas.pack(fill=BOTH, expand=YES)
 
-while True:
-    # Open current image file
-    image_path = os.path.join(IMAGE_DIR, IMAGE_PATHS[curr_image_index])
-    image = Image.open(image_path)
-    
-    # Display image
-    image.show()
-    
-    # Wait for delay time
-    time.sleep(delay_time)
-    
-    # Close image
-    image.close()
-    
-    # Toggle to next image
-    curr_image_index = toggle_image(curr_image_index)
+        # Initialize variables
+        self.curr_image_index = 0
+        self.delay_time = 1000  # milliseconds
+
+    def show(self, num : int):
+        self.curr_image_index = num
+        # Open current image file
+        image_path = os.path.join(self.IMAGE_DIR, self.IMAGE_PATHS[self.curr_image_index])
+        image = Image.open(image_path)
+        image = image.resize((self.root.winfo_screenwidth(), self.root.winfo_screenheight()), Image.ANTIALIAS)
+
+        # Create PhotoImage object using the Tk object
+        photo = ImageTk.PhotoImage(image, master=self.root)
+
+        # Display image on canvas
+        self.canvas.delete("all")
+        self.canvas.create_image(0, 0, anchor=NW, image=photo)
+        self.canvas.update()
+
