@@ -30,67 +30,72 @@ def main(args=None):
 	tk_thread.start()
 
 	sleep = .5
+	try:
+		while (True): 
+			print("helo")
+			op = readchar.readchar()
+			if op == 'f':
+				tk_thread = threading.Thread(target=face.show, args=(1,))
+				tk_thread.start()
+			elif op == 'w':
+				bot.move(0, 1)
+				time.sleep(0.5)
+				bot.stop()
+			elif op == 'e':
+				bot.move(-45, 1)
+				time.sleep(sleep)
+				bot.stop()
+			elif op == 'd':
+				bot.move(-90, 1)
+				time.sleep(sleep)
+				bot.stop()
+			elif op == 'c':
+				bot.move(-135, 1)
+				time.sleep(sleep)
+				bot.stop()
+			elif op == 'x':
+				bot.move(180, 1)
+				time.sleep(sleep)
+				bot.stop()
+			elif op == 'z':
+				bot.move(135, 1)
+				time.sleep(sleep)
+				bot.stop()
+			elif op == 'a':
+				bot.move(90, 1)
+				time.sleep(sleep)
+				bot.stop()
+			elif op == 'q':
+				bot.move(45, 1)
+				time.sleep(sleep)
+				bot.stop()
 
-	while (True): 
-		print("helo")
-		op = readchar.readchar()
-		if op == 'f':
-			tk_thread = threading.Thread(target=face.show, args=(1,))
-			tk_thread.start()
-		elif op == 'w':
-			bot.move(0, 1)
-			time.sleep(0.5)
-			bot.stop()
-		elif op == 'e':
-			bot.move(-45, 1)
-			time.sleep(sleep)
-			bot.stop()
-		elif op == 'd':
-			bot.move(-90, 1)
-			time.sleep(sleep)
-			bot.stop()
-		elif op == 'c':
-			bot.move(-135, 1)
-			time.sleep(sleep)
-			bot.stop()
-		elif op == 'x':
-			bot.move(180, 1)
-			time.sleep(sleep)
-			bot.stop()
-		elif op == 'z':
-			bot.move(135, 1)
-			time.sleep(sleep)
-			bot.stop()
-		elif op == 'a':
-			bot.move(90, 1)
-			time.sleep(sleep)
-			bot.stop()
-		elif op == 'q':
-			bot.move(45, 1)
-			time.sleep(sleep)
-			bot.stop()
+			elif op == 'p':
+				armAng = armAng-5
+				armAng = armAng % 181
+				bot.arms(armAng)
+			elif op =='o':
+				armAng = 5+armAng
+				armAng = armAng % 181
+				bot.arms(armAng)
+			elif op == 's':
+				bot.move(180, 1)
+				time.sleep(1)
+				bot.stop()
+			elif op == ',':
+				bot.rotate(1)
+				time.sleep(0.25)
+				bot.stop()
+			elif op == '.':
+				bot.rotate(0)
+				time.sleep(0.25)
+				bot.stop()
+			elif op == '`':
+				break;
+			else:
+				bot.stop()
+	except KeyboardInterrupt:
+		bot.stop()
 
-		elif op == 'p':
-			armAng = armAng-5
-			armAng = armAng % 181
-			bot.arms(armAng)
-		elif op =='o':
-			armAng = 5+armAng
-			armAng = armAng % 181
-			bot.arms(armAng)
-		elif op == 's':
-			bot.move(180, 1)
-			time.sleep(1)
-			bot.stop()
-		elif op == ',':
-			bot.rotate(1)
-			time.sleep(0.25)
-			bot.stop()
-		elif op == '.':
-			bot.rotate(0)
-			time.sleep(0.25)
-			bot.stop()
-		elif op == '`':
-			break;
 
 main()
