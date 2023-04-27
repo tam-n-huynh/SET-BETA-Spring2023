@@ -1,6 +1,9 @@
 from controls import Robot
 import readchar
 import time
+import pygame.joystick
+
+
 
 def griddy(bot : Robot()):
 	bot.arms(0)
@@ -15,6 +18,7 @@ def griddy(bot : Robot()):
 	bot.stop()
 
 def main(args=None):
+
 	bot = Robot()
 	sleep = 0.5
 	while (True): 
