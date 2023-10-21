@@ -46,7 +46,7 @@ def main(args=None):
                 try:
                     x, y = (x_axis - 128) / 128, ((y_axis - 128) / 128) * -1
                 
-                    modulus = math.sqrt(x**2+y**2) if x != 0 else 0
+                    modulus = math.sqrt(x**2+y**2)
 
                     angle= math.atan(y/x) if x != 0 else 0
                     print("angle and modulus",angle, modulus)
